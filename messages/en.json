@@ -1,0 +1,824 @@
+{
+  "Index": {
+    "site": "Sab Cleaning"
+  },
+  "COMP_ProductDetails": {
+    "PRODUCT_CODE": "Product Code ",
+    "AVAILABILITY": "Availability ",
+    "IN_STOCK": "In Stock",
+    "OUT_OF_STOCK": "Out of Stock",
+    "SHARE": "Share",
+    "QUANTITY": "Quantity",
+    "IN_QUANTITY": "In Quantity",
+
+    "Info": {
+      "PRODUCT_NOTES": "Product Notes",
+      "PRODUCT_SPECS": "Specifications",
+      "PRODUCT_REVIEWS": "Reviews"
+    }
+  },
+  "COMP_CartForm": {
+    "ADD_TO_CART_SUCCESS_MSG": "{name} added to the cart successfully!",
+    "ADD_TO_CART_CART_NOT_EXIST_MSG": "Failed to add the product. Please reload the page.",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "ADD_TO_CART_EXCEED_QUANTITY_MSG": "Requested quantity exceeds maximum available. Unable to fulfill order. Apologies."
+  },
+  "COMP_AddToCart": {
+    "ADD_TO_CART": "Add to Cart",
+    "SOLD_OUT": "Sold out"
+  },
+  "COMP_LoginForm": {
+    "GREETING": "Welcome Back!",
+    "LOGIN": "Login",
+    "EMAIL": "Email Address",
+    "PASSWORD": "Password",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "REQUIRED_PASSWORD": "Required Password",
+    "REMEMBER_ME": "Remember me",
+    "DID_FORGOT_PASSWORD": "forget password?",
+    "DONT_HAVE_EMAIL": "Don't have account ?",
+    "SIGNUP": "Register",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "INVALID_EMAIL_OR_PASSWORD": "The email/password couple is invalid.",
+    "HAVE_ACCOUNT": "Create a new account?",
+    "PLEASE_ENTER_YOUR_DETAILS": "Please enter your details",
+    "LOGIN_IN_WITH": "Login with",
+    "PHONE": "Phone",
+    "SocialLogin": {
+      "OR": "Or",
+      "FACEBOOK_LOGIN": "Login with Facebook",
+      "GOOGLE_LOGIN": "Login with Google"
+    },
+    "SIGN_UP": "Sign Up"
+  },
+  "COMP_ForgotPassword": {
+    "FORGOT_PASSWORD": "Forgot Password",
+    "ENTER_EMAIL": "Enter your email and we will send you a link to reset your password.",
+    "EMAIL_PHONE": "Email / Phone",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_EMAIL_OR_PHONE": "Required Email or Phone",
+    "RESET_PASSWORD": "Password Recovery",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "BACK": "Back to login",
+    "CHECK_EMAIL_BOX_MESSAGE": "Please check your email inbox for the password recovery link.",
+    "MESSAGE_WAS_SENDED": "An email has been sent",
+    "NO_EMAIL": "Didn't find the email?",
+    "RESEND": "Resend email",
+    "OR": "or",
+    "BACK_TO": "Back to",
+    "LOGIN": "Log In",
+    "SIGN_IN_WITH": "Sign in with",
+    "PHONE": "Phone Number",
+    "SEND": "Send",
+    "REMEMBER_ME": "Remember me?"
+  },
+  "COMP_ResetPassword": {
+    "NEW_PASSWORD": " New Password",
+    "REPEAT_NEW_PASSWORD": "Confirm Password",
+    "RESET_PASSWORD": "Reset Password",
+    "ENTER_PASSWORD": "Your new password must be different from previous used passwords.",
+    "BACK_TO_LOGIN": "Back to Login",
+    "RESET_SUCCESS_PASSWORD_MESSAGE": "Password reset successfully",
+    "YOU_CAN_NOW_LOGIN_MESSAGE": "You can now log in using your email and the new password you have created",
+    "REQUIRED_PASSWORD": "Required Password",
+    "PASSWORD_NOT_MATCHED": "Password not matched",
+    "CONFIRM_PASSWORD_REQUIRED": "Confirm Password required",
+    "SAVE_CHANGE": "Save Change",
+    "SUCCESS": "Success",
+    "CONFIRMATION_MSG": "Your password has been reset successfully",
+    "VERIFY_AND_PROCEED": "  verify  and proceed"
+  },
+  "COMP_SignUpForm": {
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "REQUIRED_FIRST_NAME": "First Name is required",
+    "REQUIRED_LAST_NAME": "Last Name is required",
+    "EMAIL_ADDRESS": "Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "ALREADY_EMAIL_EXISTS": "We are sorry. This login email already exists. Please try a different email address to register, or login to your existing account.",
+    "SIGNUP": "Sign up",
+    "BTN_REGISTER_LABEL": "Sign up",
+    "OR": "Or",
+    "FACEBOOK_LOGIN": "Login with Facebook",
+    "GOOGLE_LOGIN": "Login with Google",
+    "HAVE_EMAIL": "Do you have an account ?",
+    "LOGIN": "Login",
+    "REQUIRED_PASSWORD": "Required Password",
+    "PASSWORD": "Password",
+    "PASSWORD_REGX_MATCH": "Passwords must have at least one uppercase and one lowercase and 8 chars and one special character",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONFIRM_PASSWORD_MATCH": "Password not matched",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "ACCEPT": "Agreed To",
+    "TERMS_AND_CONDITIONS": "Terms and Conditions",
+    "REQUIRED_TERMS_CONDITIONS": "Please accept terms and conditions",
+    "PASSWORD_REGX_MESSAGE": "The password must be 8 in length and include at least one uppercase letter and one lowercase letter",
+    "INDIVIDUAL": "Individual",
+    "HAVE_AN_ACCOUNT": "Already have an account?",
+    "CORPORATE": "Corporate",
+    "ORGANIZATION_NAME": "Organization name",
+    "REQUIRED_ORGANIZATION_NAME": "Please Enter Organization name",
+    "SIGN_UP": "Sign Up",
+    "ConfirmModal": {
+      "SUCCESS_MSG": "You're all set! Welcome to our community!",
+      "SUCCESS_MSG_COUNTER": "Redirecting in {countdown} seconds..."
+    }
+  },
+  "COMP_ContactUs": {
+    "EMAIL_ADDRESS": "Email Address",
+    "ADDRESS": "Address",
+    "ENTER_EMAIL_ADDRESS": "Enter Email Address *",
+    "MESSAGE": "Message",
+    "TYPE_MESSAGE": "Type Message",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_EMAIL": " Email Address Is Required ",
+    "REQUIRED_PHONE": " Please Enter Phone Number",
+    "SEND_MESSAGE": "Send Message",
+
+    "LOCATION": "Location",
+    "ENTER_LOCATION": "Enter Location",
+    "MOBILE_NUMBER": " Mobile Number",
+    "MOBILE_PLACEHOLDER": "Enter Mobile Number",
+
+    "REQUIRED_SUBJECT": "Please Enter Subject",
+    "SUBJECT": "Subject",
+    "ENTER_SUBJECT": "Enter Subject",
+    "REQUIRED_LOCATION": "Please Enter Location",
+    "POPULAR_SERVICES": "Popular Services",
+    "REMOVED_GREATS": "We removed grease that has accumulated inside the ducts",
+    "SPECIAL_OFFERS": "Special Offers",
+    "VIEW_ALL": "View All"
+  },
+  "COMP_Modal_Content": {
+    "THANKS_MESSAGE": "Your Message Send Successfully",
+    "GO_TO_HOME": "Go To Home"
+  },
+  "COMP_Header": {
+    "INFO": "Get Your inspection for free",
+    "HOME": "Home",
+    "SERVICES": "Our Services",
+    "PRODUCTS": "Products",
+    "MATERIALS": "Materials",
+    "PACKAGES": "Packages",
+    "ABOUT_US": "About Us",
+    "LOGIN": "Login"
+  },
+  "COMP_Packages": {
+    "CHOOSE": "Choose"
+  },
+  "COMP_Packages_Header": {
+    "CORPORATE": "Corporate",
+    "INDIVIDUAL": "Individual"
+  },
+  "COMP_TOP_PRODUCTS": {
+    "Top_Products": "Top Products",
+    "View_All": "View All",
+    "Shop_Now": "Shop Now"
+  },
+  "COMP_MiniCart": {
+    "SHOPPING_CART": "Shopping bag",
+    "SUBTOTAL": "SUBTOTAL",
+    "CART_LINK": "View Cart",
+    "CHECKOUT_LINK": "Checkout",
+    "COUNT": "Count"
+  },
+  "COMP_AccountMenu": {
+    "MY_ACCOUNT": "My Account",
+    "MY_ORDERS": "My Orders",
+    "ORDER_RETURNS": "Order Returns",
+    "ADDRESS": "Addresses",
+    "WISHLIST": "Wishlist",
+    "LOGIN": "Log In",
+    "SIGN_UP": "Sign Up",
+    "SIGN_OUT": "Sign Out"
+  },
+  "COMP_BuyNow": {
+    "BUY_NOW": "Buy Now"
+  },
+  "COMP_BuyNowForm": {
+    "BUY_NOW_NOT_EXIST_MSG": "The operation failed",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later."
+  },
+  "COMP_ToolBar": {
+    "SEARCH": "Search"
+  },
+  "COMP_Footer": {
+    "SUMMARY": "Our highly skilled technicians will meticulously scuff away grease deposits and make certain that all waste is pumped out completely.",
+    "LINKS": "Quick Links",
+    "ABOUT_US": "About Us",
+    "FAQ": "FAQ",
+    "CONTACT_US": "Contact us",
+    "FOLLOW_US": "Follow Us"
+  },
+  "COMP_ProductsList": {
+    "LIST_COUNT_TITLE": "View",
+    "ADD_TO_CART_BTN": "Add to Cart",
+    "50_In_PAGE": "50 In Page",
+    "100_In_PAGE": "100 In Page",
+    "150_In_PAGE": "150 In Page",
+    "BREAD_MAIN": "Home",
+    "BREAD_BAKED": "Baked",
+    "NEXT_LABEL": "Next",
+    "PREV_LABEL": "Previous",
+    "VIEW_TITLE": "View",
+    "SORT_BY_TITLE": "Sort By",
+    "RECENTLY_ARRIVED": "Recently Arrived",
+    "ADD_TO_CART": "Add to Cart",
+    "BEST_SELLER": "Best Seller",
+    "UNAVAILABLE_BTN": "Unavailable",
+    "FOUND_ITEMS": "{count} Search results",
+    "FEATURED": "Featured",
+    "ALPHABET_AZ": "Alphabetically, A-Z",
+    "ALPHABET_ZA": "Alphabetically, Z-A",
+    "PRICE_LH": "Price, low to high",
+    "PRICE_HL": "Price, high to low",
+    "DATE_NO": "Date, new to old",
+    "DATE_ON": "Date, old to new",
+    "CLASSIFICATION_BY": "Classification By",
+    "ALLERGENS": "Allergens",
+    "PRICE": "Price",
+    "EMPTY_MSG": "No products found",
+    "BACK_TO_LIST": "Go back to the List"
+  },
+  "COMP_SidebarFilter": {
+    "FILTER_BY": "Filter by",
+    "PRODUCTS": "Products",
+    "REMOVE_ALL": "Reset Changes",
+    "REVIEW": "Rating",
+    "SERVICES": "Services"
+  },
+  "COMP_Addresses": {
+    "ADDRESSES": "Addresses",
+    "ADD_NEW_ADDRESS": "Add New Address",
+    "SUCCESS_UPDATE_MSG": "Your address has been updated successfully.",
+    "SUCCESS_ADD_MSG": "Your address has been added successfully."
+  },
+  "COMP_AddressItem": {
+    "EDIT": "Edit",
+    "DELETE": "Remove",
+    "DELIVERY_ADDRESS": "{type} Delivery Address",
+    "HOME": "Home",
+    "WORK": "Work",
+    "Default_ADDRESS": "Use as Default Address",
+    "BUILDING": "Building Number",
+    "FLOOR": "Floor Number",
+    "FLAT": "Flat"
+  },
+  "COMP_ProfileTabs": {
+    "WISHLIST": "Favourite",
+    "MY_ORDERS": "My Orders",
+    "ORDER_RETURN": "Order Return",
+    "LOCATION": "Location",
+    "MY_ACCOUNT": "Personal Information",
+    "LOG_OUT": "Log Out",
+    "WELCOME": "Hello",
+    "SECTIONS": "Sections",
+    "SETTING": "Setting",
+    "MY_QUOTES": "My Quotes",
+    "MY_SERVERS": "My Services"
+  },
+  "COMP_EmptyAddress": {
+    "NO_ADDRESS": "There is no address to ship for!"
+  },
+  "COMP_AddressForm": {
+    "ADDRESS_FORM": "Add New Address",
+    "LOCATION_DETAILS": "Location Details",
+    "ADDRESS_NAME": "Address Name",
+    "OPTIONAL": "(Optional)",
+    "HOME": "Home",
+    "WORK": "Work",
+    "SELECT_DEFAULT": "Use as Default Address",
+    "SAVE_ADDRESS": "Save Address",
+    "CANCEL": "Cancel",
+    "ADDRESS_DETAILS": "Address Details",
+    "NAME": "Name",
+    "PHONE": "Phone Number",
+    "GOVERNORATE": "Governorate",
+    "REGION": "Region",
+    "ADDRESS": "Address",
+    "BUILDING": "Building Number",
+    "FLOOR": "Floor Number",
+    "APARTMENT": "Apartment Number",
+    "POSTAL_CODE": "Postal Code",
+    "FIRST_NAME": "First Name",
+    "REQUIRED_FIRST_NAME": "First Name is required",
+    "ERR_FIRST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_FIRST_NAME_MAX": "First Name length should be less than {length} characters.",
+    "LAST_NAME": "Last Name",
+    "REQUIRED_LAST_NAME": "Last Name is required",
+    "ERR_LAST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_LAST_NAME_MAX": "Last Name length should be less than {length} characters.",
+    "EMAIL_ADDRESS": "Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "PHONE_NUMBER": "Phone Number",
+    "REQUIRED_PHONE_NUMBER": "Phone Number Required",
+    "INVALID_PHONE_NUMBER": "Phone number is not valid",
+    "CITY": "City",
+    "REQUIRED_CITY": "Please select your city.",
+    "LINE1": "Address Details",
+    "REQUIRED_ADDRESS": "Please enter your street name or any landmarks.",
+    "REQUIRED_BUILDING_NUMBER": "Please enter your building number",
+    "REQUIRED_FLOOR_NUMBER": "Please enter your floor number",
+    "FLAT": "Flat",
+    "REQUIRED_FLAT_NUMBER": "Please enter your apartment number",
+    "SAVE_ADDRESSES": "Save Addresses",
+    "DEFAULT_SELECT": "Select ...",
+    "DISTRICT": "District",
+    "REQUIRED_DISTRICT": "Please select your district",
+    "OTHER": "Other",
+    "REQUIRED_ADDRESS_TYPE": "Please select the address type.",
+    "SAVE": "Save Address",
+    "Default_ADDRESS": "Use as Default Address",
+    "COUNTRY": "Country",
+    "SELECT_AS_MAIN_ADDRESS": "Select as main address",
+    "EMAIL": "Email"
+  },
+  "COMP_Remove_Address_Modal": {
+    "REMOVE_ADDRESS": "Remove Address",
+    "DO_REMOVE_ADDRESS": "Are you sure you want to remove the address",
+    "CONFIRM_REMOVE": "Delete",
+    "CANCEL": "Cancel",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later."
+  },
+  "Comp_My_Account": {
+    "PERSONAL_INFORMATION": "Personal Information",
+    "FIRST_NAME": "First Name",
+    "REQUIRED_FIRST_NAME": "First Name is required",
+    "ERR_FIRST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_FIRST_NAME_MAX": "First Name length should be less than {length} characters.",
+    "LAST_NAME": "Last Name",
+    "REQUIRED_LAST_NAME": "Last Name is required",
+    "ERR_LAST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_LAST_NAME_MAX": "Last Name length should be less than {length} characters.",
+    "EMAIL_ADDRESS": "Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "ALREADY_EMAIL_EXISTS": "We are sorry. This email already exists. Please try a different email address to register, or login to your existing account.",
+    "PHONE_NUMBER": "Phone Number",
+    "REQUIRED_PHONE_NUMBER": "Phone Number Required",
+    "INVALID_PHONE_NUMBER": "Phone number is not valid",
+    "DAY": "Day",
+    "MONTH": "Month",
+    "YEAR": "Year",
+    "INVALID_BIRTH_DATE": "Invalid birthdate. Make sure the day, month, and year are within valid ranges.",
+    "SAVE": "Save Changes",
+    "CANCEL": "Cancel",
+    "CHANGE_PASSWORD": "Change Password",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "SUCCESS_MSG": "Your personal information has been updated successfully.",
+    "ACCOUNT_SETTINGS": "Account Settings",
+    "PROFILE_PICTURE": "Profile Picture",
+    "GENERAL_INFORMATION": "General Information"
+  },
+  "COMP_MyOrders": {
+    "MY_ORDERS": "My Orders",
+    "PRODUCT_SEARCH": "Search",
+    "CURRENT_ORDERS": "Current Orders",
+    "COMPLETED_ORDERS": "Completed Orders",
+    "CANCELED_ORDERS": "Canceled Orders"
+  },
+
+  "COMP_UnCompletedOrder": {
+    "ARRIVES_WITHIN": "Arrives Within",
+    "CONTACT_WITH_DELIVERY": "Contact Delivery"
+  },
+  "COMP_CompletedOrder": {
+    "RETURN_ORDER": "Return Products"
+  },
+  "Comp_CurrentOrder": {
+    "MY_ORDERS": "My Orderds",
+    "PRODUCT_SEARCH": "Search",
+    "CURRENT_ORDERS": "Current Orders",
+    "ORDERS_COMPLTED": "Order Completed",
+    "RETURNS": "Returns",
+    "CANCELED_ORDERS": "Canceled Orders"
+  },
+  "Comp_CurrentOrderCard": {
+    "ORDER_NUMBER": "Order Number",
+    "DETAILS": "Details",
+    "PAYMENT_METHOD": "Payment Method",
+    "PRICE": "Price",
+    "QUANTITY": "Quantity",
+    "ORDER_DATE": "Order Date"
+  },
+  "Comp_CompletedOrderCard": {
+    "ORDER_NUMBER": "Order Number",
+    "DELIVERED": "Delivered",
+    "PAYMENT_METHOD": "Payment Method",
+    "PRICE": "Price",
+    "EVALUATE": "Evaluate",
+    "ORDER_RETURN": "Order Return",
+    "DETAILS": "Details",
+    "QUANTITY": "Quantity",
+    "ORDER_DATE": "Order Date"
+  },
+
+  "Comp_CanceledOrderCard": {
+    "ORDER_NUMBER": "Order Number",
+    "CANCELED": "Canceled",
+    "PAYMENT_METHOD": "Payment Method",
+    "PRICE": "Price",
+    "EVALUATE": "Evaluate",
+    "ORDER_RETURN": "Order Return",
+    "DETAILS": "Details",
+    "QUANTITY": "Quantity",
+    "ORDER_DATE": "Order Date"
+  },
+  "Comp_OrderDetails": {
+    "TOTAL": "Total",
+    "ORDER_DETAILS": "Order Details",
+    "SHIPPING_DETAILS": "Shipping Details ",
+    "BILL": "Bill",
+    "CART_SUMMARY": "Cart Summary",
+    "CANCEL_ORDER": "Cancel Order",
+    "PREPARING": "Preparing",
+    "CANCEL_MSG": "You cannot cancel the order after the order has been prepared",
+    "DELIVERED_SUCCESS": "Delivered successfully",
+    "ORDER_NUMBER": "Order Number",
+    "ON_THE_ROAD": "On The Road",
+    "DELIVERED": "Delivered",
+    "OUT_FOR_DELIVERY": "Out For Delivery",
+    "ORDER_RETURN": "Order Return",
+    "CANCEL_INQUIRY": "Are you sure you want to cancel the order?",
+    "YES": "Yes",
+    "NO": "No",
+    "DISCOUNT": "Discount",
+    "TAX": "Taxes Fees",
+    "QUANTITY": "Quantity",
+    "SUB_TOTAL": " Total Fees",
+    "SHIPPING_FEES": "Shipping Fees",
+    "CANCEL": "Cancel Order",
+    "AMOUNT": "Amount :",
+    "ORDER_DATE": "Order Date :",
+    "DELIVERY_DATE": "Delivery Date  :",
+    "HOME": "Home",
+    "WORK": "Work",
+    "OTHER": "Other",
+    "PROCESSING": "Processing",
+    "SHIPPING": "Shipped",
+    "COMPLETED": "Delivered",
+    "BUILDING": "Building Number",
+    "FLOOR": "Floor Number",
+    "FLAT": "Flat"
+  },
+  "COMP_Empty_Template": {
+    "SHOW_NOW": "Show Now",
+    "NO_FAVORITE_PRODUCTS": "There are no products in your favorites"
+  },
+  "COMP_Wishlist": {
+    "MOVE_TO_CART_BTN_LBL": "Move to Cart",
+    "ERR_MOVE_TO_CART_MSG": "Sorry an error occurred, we could not merge the carts.",
+    "Shop_Now": "Shop Now"
+  },
+  "COMP_Services_Details": {
+    "SERVICES_TITLE": "General Cleaning Service",
+    "GET_INSPECTION": "Get Inspection",
+    "CONTACT_US": "Contact us",
+    "SERVICES_DETAILS": "Service Details",
+    "AFFORDABLE_WAY": " Affordable Way to Book House Cleaning Services     ",
+    "CLEANING_SERVICES": "Why Book Cleaning Services Through SAB?",
+    "GALLERY": "Gallery",
+    "VIDEO": "Video",
+    "RELATED_SERVICES": "Related Services"
+  },
+  "COMP_Services": {
+    "GET_INSPECTION": "Get Inspection",
+    "EMPTY_MSG":"Sorry, we couldn't find any Services"
+  },
+  "COMP_Product_Summary": {
+    "SUB_TOTAL": "Subtotal",
+    "COUPON_DISCOUNT": " Coupon Discount  ",
+    "SHIPPING_FEES": "Shipping Charge  ",
+    "TOTAL": "Total",
+    "REVIEW_ORDER": "Review Order",
+    "ENTER_DISCOUNT_CODE": "Enter Discount Code",
+    "APPLY": "Apply",
+    "PROCEED_TO_PAY": "Proceed To Pay",
+    "ENTER_COUPON": "Enter Coupon",
+    "TOTAL_ITEMS": "Total Items",
+    "TOTAL_ORDER": "Total Order",
+    "REMOVE_CART_ITEM_MESSAGE": " Remove   Item",
+    "CONFIRM_REMOVE": "Delete",
+    "CLEAR_CART_MESSAGE": "Are you sure to clear cart",
+    "CONFIRM_CLEAR": "Clear",
+    "CANCEL": "Cancel",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "DISCOUNT": "Discount",
+    "TAX": "Taxes Fees",
+    "INVALID_QUANTITY_MESSAGE": "The available quantity of this product is {quantity}",
+    "CLEAR": "Clear All",
+    "REMOVE": "Remove",
+    "REMOVE_CONFIRMATION": "Are you sure to delete this item ? ",
+    "DISCOUNT_ALERT": "your total saving on this order"
+  },
+  "COMP_Checkout": {
+    "SUB_TOTAL": " Total Fees",
+    "SHIPPING_FEES": "Shipping Fees",
+    "DISCOUNT": "Discount",
+    "TAX": "Taxes Fees",
+    "TOTAL": "Total",
+    "REVIEW_ORDER": "Review Order",
+    "ENTER_DISCOUNT_CODE": "Enter Discount Code",
+    "COMPLETE_PURCHASE": "Complete Purchase",
+    "APPLY": "Apply",
+    "REQUIRED_SHIPMENT_ADDRESS": "Please enter your delivery address",
+    "REQUIRED_PAYMENT_METHOD_ADDRESS": "Please select your payment option",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "INVALID_ITEMS_SHIPMENTS_MSG": "Please ensure that you have items in the cart and you selected your shipment method.",
+    "QUANTITY": "Quantity",
+    "NEXT": "Next",
+    "BACK": "Back",
+    "HOME": "Home",
+    "WORK": "Work",
+    "Default_ADDRESS": "Use as Default Address",
+    "BUILDING": "Building Number",
+    "FLOOR": "Floor Number",
+    "FLAT": "Flat",
+    "ORDER_SUMMARY": "Order Summary",
+    "ORDER_SUCCESS_MESSAGE": "Your Order has been Successfully Competed",
+    "GO_TO_HOME": "Go To Home",
+    "PAYMENT_METHOD": "Payment Method",
+    "PAYMENT_FAILED": "Order had been rejected.",
+    "CANCEL": "Cancel",
+    "QnbMethod": "Credit Card",
+    "DefaultManualPaymentMethod": "Cash on Delivery",
+    "TRACK_ORDER": "Tracking Order",
+    "TOTAL_ITEMS": "Total Items",
+    "TOTAL_ORDER": "Total Order",
+    "ENTER_COUPON": "Enter Coupon"
+  },
+  "COMP_Shipping_Address": {
+    "APPLY": "Apply",
+    "ADD": "Add Address",
+    "SHIPPING_ADDRESS": "Shipping Address",
+    "SHIPPING_TO_YOUR_LOCATION": "Shipping To Your Location",
+    "TAKE_FROM_NEARST_STORE": "Receive From Nearst Store",
+    "HOME": "Home",
+    "CHANGE": "Change",
+    "DELIVERY_ADDRESS": "Delivery Address",
+    "NAME": "Name",
+    "ADDRESS": "Address",
+    "PHONE_NUMBER": " Phone Number ",
+    "PAYMENT_METHOD": "Payment Methods",
+    "PAYMENT_USING_CART": "Payment using card    ",
+    "ADD_MY_CARD": "Add my Card",
+    "PAYMENT_WHEN_RECEIVING": "  Payment Cash when recieving",
+    "ADD_NEW_ADDRESS": "Add New Address",
+    "CONFIRM": "Confirm",
+    "CANCEL": "Cancel"
+  },
+  "COMP_PaymentMethod": {
+    "PAYMENT_METHOD": "Payment Methods",
+    "PAYMENT_USING_CART": "Payment using card",
+    "ADD_MY_CARD": "Add my Card",
+    "PAYMENT_WHEN_RECEIVING": "  Payment Cash when recieving",
+    "ADD_NEW_ADDRESS": "Add New Address",
+    "CARD_NUMBER": " Card Number  ",
+    "EXPIRATION_DATE": "Expiration Date",
+    "MONTH_DAY": "Month / Day",
+    "CODE": "Code",
+    "CANCEL": "Cancel",
+    "PAYMENT_CASH_WHEN_RECEIVING": "Payment Cash When Receiveing"
+  },
+  "COMP_CHECKOUT_AddressItem": {
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "DELIVERY_ADDRESS": "{type} Delivery Address",
+    "HOME": "Home",
+    "WORK": "Work",
+    "Default_ADDRESS": "Use as Default Address",
+    "BUILDING": "Building Number",
+    "FLOOR": "Floor Number",
+    "FLAT": "Flat"
+  },
+  "ORDER_CONFIRMATION": {
+    "MSG": "Your order has been completed successfully!<br></br> We are pleased to inform you that your order has been processed successfully and will be shipped as soon as possible. Thank you for your trust in us!<br></br> The page will be redirected to the order invoice in <strong>{countdown}</strong> seconds."
+  },
+  "ORDER_REJECTION": {
+    "MSG": "Your order payment has been rejected!<br></br> We regret to inform you that the payment for your order has been rejected.<br></br> The page will be redirected to the order invoice in <strong>{countdown}</strong> seconds."
+  },
+  "COMP_EMPTY_ORDERS": {
+    "EMPTY_MSG": "No Orders found"
+  },
+  "COMP_Profile_Address": {
+    "EMPTY_MSG": "No Addresses found"
+  },
+  "COMP_Custom404": {
+    "NOT_FOUND_MESSAGE": "PAGE NOT FOUND",
+    "BACK_TO_HOME": "Back to Home page"
+  },
+  "COMP_My_Bookings": {
+    "INSPECTION_COMPLETED": "Inspection Completed",
+    "PENDING_INSPECTION": "Pending Inspection",
+    "INPROGRESS_INSPECTION": "Inprogress Inspection",
+    "CANCELED_INSPECTION": "Canceled Inspection"
+  },
+  "COMP_Completed_Inspection": {
+    "GENERAL_CLEANING_SERVICES": "General Cleaning Services",
+
+    "BOOK_SERVICES": "Book Services",
+    "MORE_DETAILS": "More Details"
+  },
+  "COMP_Book_Services": {
+    "APPOINTMENT": "Appointment",
+    "PAYMENT": "Payment",
+    "DONE": "Done",
+    "BOOK_SERVICES": "Book Services",
+    "DATE_PICKER": "Date Picker",
+    "TIME_PICKER": "Time Picker",
+    "BOOKING_DATE": "Booking Date",
+    "LOCATION": "Location",
+    "PRICE": "Price",
+    "CUSTOMER": "Customer",
+    "MORE_DETAILS": "More Details",
+    "BOOK_APPOINTMENT": "Book Appointment"
+  },
+  "COMP_PAYMENT": {
+    "BOOKING_DATE": "Booking Date",
+    "LOCATION": "Location",
+    "PRICE": "Price",
+    "CUSTOMER": "Customer",
+    "SERVICES_PROVIDER": "Services Provider",
+    "SUB_TOTAL": "Subtotal",
+    "COUPON_DISCOUNT": " Coupon Discount  ",
+    "SERVICES_CHARGE": " Services Charge  ",
+    "TOTAL": "Total ",
+    "COUPON_CODE": "Coupon Code",
+    "APPLY": "Apply",
+    "SUCCESS": "Success",
+    "COUPON_ERR": "Error, Coupon invalid Please check again ",
+    "APPOINTMENT": "Appointment",
+    "PAYMENT": "Payment",
+    "DONE": "Done",
+    "BOOK_SERVICES": "Book Services",
+    "PENDING": "Pending",
+    "CONFIRM": "Confirm",
+    "CASH": "Cash",
+    "CREDIT_DEDIT_CARD": "Credit / Debit Card"
+  },
+  "COMP_Booking_Successfully": {
+    "APPOINTMENT": "Appointment",
+    "PAYMENT": "Payment",
+    "DONE": "Done",
+    "BOOK_SERVICES": "Book Services",
+    "SUCCESS_MSG": "Your Booking has been Successfully Competed",
+    "GO_TO_HOME": "Go To Home",
+    "BOOKING_HISTORY": "Booking History",
+    "BOOKING_DATE": "Booking Date",
+    "LOCATION": "Location",
+    "PRICE": "Price",
+    "CUSTOMER": "Customer",
+    "CASH_PAYMENT_METHOD": "cash payment method",
+    "SERVICES_PROVIDER": "Services Provider",
+    "SUB_TOTAL": "Subtotal",
+    "COUPON_DISCOUNT": " Coupon Discount  ",
+    "SERVICES_CHARGE": " Services Charge  ",
+    "TOTAL": "Total ",
+    "REMOVE": "Remove",
+    "CONFIRM": "Confirm"
+  },
+  "COMP_Pending_Inspection": {
+    "BOOKING_DATE": "Booking Date",
+    "LOCATION": "Location",
+    "PRICE": "Price",
+    "CUSTOMER": "Customer",
+    "CONTACT_US": "Contact us",
+    "WAITING_FOR_COMMENT": "Waiting for your comment  ",
+    "CANCEL_SERVICES": "Cancel Services",
+    "PENDING": "Pending",
+    "YOUR_ACTION": "Your Action",
+    "INCORRECT_EMAIL": "We tried contact with you but your email is not correct",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_EMAIL": "Required Email ",
+    "PLEASE_ENTER_YOUR_MAIL": "Please Enter Your Email",
+    "SEND": "Send",
+    "CANCEL": "Cancel",
+    "CANCEL_CONFIRMATION": "Are you sure you want to Cancel the service address?",
+    "YES": "Yes",
+    "NO": "No"
+  },
+  "COMP_Inprogress_Inspection": {
+    "BOOKING_DATE": "Booking Date",
+    "LOCATION": "Location",
+    "PRICE": "Price",
+    "CUSTOMER": "Customer",
+    "CONTACT_US": "Contact us",
+    "WAITING_FOR_COMMENT": "Waiting for your comment  ",
+    "CANCEL_SERVICES": "Cancel Services",
+    "CANCEL_CONFIRMATION": "Are you sure you want to Cancel the service address?",
+    "YES": "Yes",
+    "NO": "No"
+  },
+  "COMP_MyBooking": {
+    "EMPTY_MSG": "No Booking found"
+  },
+  "COMP_HomeBanner": {
+    "TITLE": "Professional Services For Your Home & Commercial",
+    "SUBTITLE": "We offer top-notch sanitation solutions to give you peace of mind",
+    "CALL_US": "Call Us Now",
+    "ADDRESS": "Address",
+    "POPULARITY": "Trusted by over 500 Person",
+    "FIRST_LINK": "Find your service",
+    "SECOND_LINK": "Find your product"
+  },
+  "COMP_Cleaning_Cards": {
+    "WHY_CHOOSE": "Why choose us",
+    "EXCEPTIONAL": "Exceptional",
+    "CLEANING": "cleaning",
+    "AND": "and",
+    "MAINTAINANCE": "Maintainance",
+    "DESCRIPTION": "Choose Sab Cleaning Crop For Proven expertise, a professional team, eco-friendly practices, and personalized solutions. Experience cleaner and healthier spaces with us! "
+  },
+  "COMP_How_Works": {
+    "TITLE": "How It Works",
+    "SUBTITLE": "Efficient, Friendly & Professional Cleaners, your satisfaction is guaranteed!",
+    "STEP1": "Find What You Want",
+    "STEP2": "Choose What To Do",
+    "STEP3": "Certified Cleaner",
+    "STEP4": "Get Amazing Service"
+  },
+  "COMP_Featured_Services": {
+    "FEATURED_SERVICES": "Featured Services",
+    "FEATURES_DESCRIPTION": "Explore the greates our services. You won’t be disappointed"
+  },
+  "COMP_Services_Card": {
+    "VIEW_DETAILS": "View Details  "
+  },
+
+  "COMP_Free_Trial": {
+    "TRY_FREE_TRIAL": "Try Our Free Trial"
+  },
+  "COMP_Find_Your_Services": {
+    "SERVICES_TYPE_TITLE": "Which service type would you consider for your quotation?",
+    "SERVICES_TYPE_DESCRIPTION": "Our highly skilled technicians will meticulously scuff away grease deposits and make certain that all waste is pumped out completely.",
+    "CLEANING_SERVICES": "Cleaning Services",
+    "COOKING": "Cooking Waste Oil Collection"
+  },
+
+  "COMP_Cleaning_Services": {
+    "CLEANING_SERVICES_TITLE": "Good Job, Now let’s choose what do you need to clean?",
+    "CLEANING_SERVICES_DESCRIPTION": "Our highly skilled technicians will meticulously scuff away grease deposits and make certain that all waste is pumped out completely.",
+    "TANK_CLEANING": "Tank Cleaning",
+    "GREASE_CLEANING": "grease cleaning"
+  },
+  "COMP_Tank_Cleaning": {
+    "TANK_CLEANING_TITLE": "Let’s Find Your Service!",
+    "TANK_CLEANING_DESCRIPTION": "Home . Find Services",
+    "SERVICES_CLEANING_DESC": "Our highly skilled technicians will meticulously scuff away grease deposits and make certain that all waste is pumped out completely.",
+    "SERVICES_YOU_HOPE_TO_ADD": "Service You Hope To Add",
+    "SERVICES_TANK_CLEANING": " This is our services for “Tank Cleaning”, We wish you",
+
+    "WHAT_YOU_ARE_LOOKING_FOR": "found what you are looking for.",
+    "MODAL_TITLE": "Service You Hope To Add",
+    "MODAL_DESC": "We Are happy for your suggestion to Any service That will help you in the future",
+    "HOW_CAN_I_HELP_YOU": "How We Can Help You?",
+    "REQUIRED_MESSAGE": "Message Is Required",
+    "SEND_MESSAGE": "Send",
+    "CANCEL": "Cancel  "
+  },
+  "COMP_Grease_Cleaning": {
+    "GREASE_CLEANING_TITLE": "Let’s Find Your Service!",
+    "GREASE_CLEANING_DESCRIPTION": "Home . Find Services",
+
+    "SERVICES_TANK_CLEANING": " This is our services for “Tank Cleaning”, We wish you",
+    "WHAT_YOU_ARE_LOOKING_FOR": "found what you are looking for.",
+    "SERVICES_CLEANING_DESC": "Our highly skilled technicians will meticulously scuff away grease deposits and make certain that all waste is pumped out completely.",
+    "SERVICES_YOU_HOPE_TO_ADD": "Service You Hope To Add",
+    "MODAL_TITLE": "Service You Hope To Add",
+    "MODAL_DESC": "We Are happy for your suggestion to Any service That will help you in the future",
+    "HOW_CAN_I_HELP_YOU": "How We Can Help You?",
+    "REQUIRED_MESSAGE": "Message Is Required",
+    "SEND_MESSAGE": "Send",
+    "CANCEL": "Cancel  "
+  },
+  "Comp_Empty_Template": {
+    "EMPTY_CART_MESSAGE": "Sorry, your don’t add any thing to Cart",
+    "SHOPPING_NOW": "Return to Shop"
+  },
+  "COMP_Technical_Services": {
+    "FIRST_TITLE": "It’s Our Pleasure TO Introduce Al Muhtarif Sewerage",
+    "SECOND_TITLE": "Works Technical Services"
+  },
+  "COMP_About_Banner": {
+    "ABOUT_US": "About Us"
+  },
+  "COMP_Why_Choose_Us": {
+    "TRUSTED_PEOPLE": "Trusted by over 500,000 Person",
+    "WHY_CHOOSE_US": "Why Choose Us",
+    "SERVICES_OFFER": "What services do you provide?",
+    "SERVICES_DESC": "“We offer a wide range of sanitation services including waste disposal, cleaning and maintenance.”",
+    "PROVIDE_SERVICES": "Do you provide emergency services",
+    "AREA_SERVICES": "What areas do you offer?"
+  },
+  "COMP_Our_Clients": {
+    "OUR_CLIENT_TITLE": "What Our Client Says"
+  },
+  "COMP_MobileFilter": {
+    "REMOVE_ALL": "Reset Changes",
+    "SERVICES": "Services",
+    "REVIEW": "Rating"
+  }
+}

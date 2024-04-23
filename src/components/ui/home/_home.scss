@@ -1,0 +1,58 @@
+.home-banner {
+  .home-banner-content {
+    position: absolute;
+    top: 15%;
+    width: 40%;
+  }
+}
+
+@include for-tablet {
+  .home-banner {
+    .home-banner-content {
+      width: 40%;
+      top: 15%;
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 12px;
+      }
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .home-banner {
+    .home-banner-content {
+      width: 95%;
+      top: 50%;
+    }
+    .image-container {
+      img {
+        height: 602px;
+      }
+    }
+  }
+}
+
+.whatsapp-float {
+  top: 50%;
+  right: 1rem;
+}
+
+.banner-section {
+  background-image: url('/images/home/super-clean');
+  background-size: cover;
+  background-position: center;
+}
+.free-trial,
+.mobile-app {
+  background-image: url('/images/home/free-trial/h-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mobile-app {
+  background-image: url('/images/home/mobile-app/bg.jpg');
+}

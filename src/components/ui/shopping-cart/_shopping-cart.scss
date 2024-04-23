@@ -1,0 +1,23 @@
+.check-icon {
+  position: relative;
+  &::after {
+    content: '';
+    width: 5px;
+    height: 40px;
+    background-color: $success;
+    position: absolute;
+    margin: -2px 10px;
+    border-radius: 5px;
+  }
+}
+.shopping-cart {
+  .h-basic-product-card {
+    .card {
+      margin-inline-end: 1rem;
+      @include for-tablet {
+        width: 100%;
+        max-height: max-content;
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+.p-tabview {
+  .p-tabview-panels {
+    padding: 0 !important;
+  }
+}
+
+.mountains {
+  .p-tabview-nav {
+    .p-unselectable-text {
+      .p-tabview-nav-link {
+        color: $primary;
+        // background-color: $light-blue;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        padding: 8px 95px;
+        margin: 1rem 1rem 0;
+        border: 0;
+      }
+    }
+
+    .p-tabview-selected {
+      .p-tabview-nav-link {
+        color: $white;
+        background-color: $primary;
+      }
+    }
+  }
+}
+
+.frameless {
+  .p-tabview-nav {
+    border: 0;
+    border-bottom: 1px solid $primary;
+
+    .p-unselectable-text {
+      .p-tabview-nav-link {
+        color: $primary;
+        background-color: transparent;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        padding: 0.7rem 1rem;
+        padding-bottom: 24px;
+        margin: 0;
+        border: 0;
+      }
+    }
+
+    .p-tabview-selected {
+      border-bottom: 3px solid $primary;
+
+      .p-tabview-nav-link {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.pills {
+  .p-tabview-nav {
+    border: 0;
+
+    .p-unselectable-text {
+      .p-tabview-nav-link {
+        color: $primary;
+        background-color: transparent;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        padding: 0.7rem 1rem;
+        margin: 0;
+        border: 0;
+      }
+    }
+
+    .p-tabview-selected {
+      background-color: $primary;
+      border-radius: 25px;
+
+      .p-tabview-nav-link {
+        color: $white;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.blocks {
+  border: 1px solid $light-blue;
+  border-radius: 15px;
+  overflow: hidden;
+
+  .p-tabview-nav {
+    gap: 1rem;
+    background-color: rgba($color: #f5f6fa, $alpha: 0.5);
+    padding: 1px;
+
+    .p-unselectable-text {
+      color: $primary;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+
+      .p-tabview-nav-link {
+        background: transparent;
+        border: none;
+      }
+    }
+
+    .p-tabview-selected {
+      background: $white;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      overflow: hidden;
+      color: $primary;
+      border: none;
+    }
+  }
+}
+
+.p-tabview-nav {
+  display: flex;
+  align-items: center;
+
+  .p-tabview-ink-bar {
+    display: none !important;
+  }
+}
+
+.p-tabview {
+  &.center {
+    .p-tabview-nav {
+      justify-content: center;
+    }
+  }
+
+  &.start {
+    .p-tabview-nav {
+      justify-content: flex-start;
+    }
+  }
+
+  &.between {
+    .p-tabview-nav {
+      justify-content: space-between;
+    }
+  }
+
+  &.end {
+    .p-tabview-nav {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.nav-pills {
+  .nav-link {
+    color: black;
+
+    &.active {
+      // background-color: $light-blue;
+      color: black;
+    }
+  }
+
+  &.vtabs {
+    border-radius: 10px;
+    background-color: white;
+
+    .nav-link {
+      color: black;
+      padding: 0.5rem 1rem;
+      margin: 0;
+      border-radius: 4px;
+      border: 1px solid $light-gray;
+      margin-top: 0.3rem;
+
+      &.active {
+        background-color: $secondary;
+        font-weight: 500;
+        border: none;
+      }
+    }
+
+    .nav-item {
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    @include for-tablet {
+      margin-inline-end: 0;
+    }
+  }
+}

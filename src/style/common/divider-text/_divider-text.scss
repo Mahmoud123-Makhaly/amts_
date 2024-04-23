@@ -1,0 +1,7 @@
+.divider-text:after,
+.divider-text:before {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: $light-blue;
+}

@@ -1,0 +1,19 @@
+.find-your-services {
+  background-image: url('/images/find-your-services/bg.jpg');
+  block-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  img {
+    max-width: 100%;
+  }
+}
+.tank-cleaning {
+  background-image: url('/images/find-your-services/bg-2.jpg');
+  block-size: cover;
+}
+@include for-tablet {
+  .find-your-services,
+  .tank-cleaning {
+    background-image: none;
+  }
+}

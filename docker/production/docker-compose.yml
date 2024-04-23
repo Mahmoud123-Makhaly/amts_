@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  totplatform-website-env-production:
+    build:
+      context: ../../
+      dockerfile: docker/production/Dockerfile
+    image: totplatform-website-env-production
+    env_file:
+      - ../../.env.production
+    ports:
+      - ${TOTPLATFORM_WEBSITE_PRODUCTION_EXPOSED_PORT}:8091

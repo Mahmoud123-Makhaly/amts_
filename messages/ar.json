@@ -1,0 +1,825 @@
+{
+  "Index": {
+    "site": "المحترف"
+  },
+  "COMP_ProductDetails": {
+    "PRODUCT_CODE": "رمز المنتج",
+    "AVAILABILITY": "التوفر",
+    "IN_STOCK": "متوفر",
+    "OUT_OF_STOCK": "غير متوفر",
+    "SHARE": "مشاركة",
+    "QUANTITY": "الكمية",
+    "IN_QUANTITY": "في المخزون",
+    "Info": {
+      "PRODUCT_NOTES": "ملاحظات المنتج",
+      "PRODUCT_SPECS": "المواصفات",
+      "PRODUCT_REVIEWS": "التقييمات"
+    }
+  },
+  "COMP_CartForm": {
+    "ADD_TO_CART_SUCCESS_MSG": "تمت إضافة {name} بنجاح إلى السلة!",
+    "ADD_TO_CART_CART_NOT_EXIST_MSG": "فشلت عملية إضافة المنتج. يرجى إعادة تحميل الصفحة.",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "ADD_TO_CART_EXCEED_QUANTITY_MSG": "الكمية المطلوبة تتجاوز الحد الأقصى المتاح. غير قادرون على تنفيذ الطلب. اعتذار."
+  },
+  "COMP_AddToCart": {
+    "ADD_TO_CART": "اضافة الي عربة التسوق",
+    "SOLD_OUT": "نفذ"
+  },
+  "COMP_LoginForm": {
+    "GREETING": "مرحباً",
+    "LOGIN": "تسجيل الدخول",
+    "EMAIL": "البريد الإلكتروني",
+    "PASSWORD": "كلمة المرور",
+    "INVALID_EMAIL": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "REQUIRED_EMAIL": "يرجى إدخال عنوان بريد إلكتروني ",
+    "REQUIRED_PASSWORD": "يرجى إدخال كلمة المرور",
+    "REMEMBER_ME": "تذكرني ؟",
+    "DID_FORGOT_PASSWORD": "هل نسيت كلمة  المرور؟",
+    "DONT_HAVE_EMAIL": "ليس لديك حساب؟",
+    "SIGNUP": " إنشاء حساب جديد",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "INVALID_EMAIL_OR_PASSWORD": "البريد الإلكتروني/كلمة المرور غير صالح.",
+    "PLEASE_ENTER_YOUR_DETAILS": "الرجاء إدخال تفاصيلك لتسجيل الدخول",
+    "LOGIN_IN_WITH": "تسجيل الدخول بواسطة",
+    "PHONE": "رقم الهاتف",
+    "SocialLogin": {
+      "OR": "أو",
+      "FACEBOOK_LOGIN": "تسجيل دخول بفيس بوك",
+      "GOOGLE_LOGIN": "تسجيل دخول بجوجل"
+    }
+  },
+  "COMP_ForgotPassword": {
+    "FORGOT_PASSWORD": "نسيت كلمة المرور",
+    "EMAIL_ADDRESS": "البريد الالكتروني",
+    "ENTER_EMAIL": "أدخل بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصة بك.",
+    "INVALID_EMAIL": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "REQUIRED_EMAIL_OR_PHONE": "يرجى إدخال عنوان بريد إلكتروني أو رقم هاتف صالح",
+    "RESET_PASSWORD": "نسيت كلمة السر؟",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "BACK": "العودة إلى تسجيل الدخول",
+    "CHECK_EMAIL_BOX_MESSAGE": "يرجى التحقق من صندوق البريد الإلكتروني الخاص بك للحصول على رابط استعادة كلمة المرور.",
+    "MESSAGE_WAS_SENDED": "تم إرسال البريد إلكتروني",
+    "NO_EMAIL": "لم تجد البريد الإلكتروني؟",
+    "RESEND": "إعادة الارسال",
+    "OR": "أو",
+    "BACK_TO": "العودة إلى",
+    "LOGIN": "تسجيل الدخول",
+    "SIGN_IN_WITH": "تسجيل الدخول بواسطة",
+    "PHONE": "رقم الهاتف",
+    "SEND": "إرسال",
+    "REMEMBER_ME": "تذكرني ؟",
+    "EMAIL_PHONE": "البريد الإلكتروني  / رقم الهاتف"
+  },
+
+  "COMP_ResetPassword": {
+    "NEW_PASSWORD": "إنشاء كلمة مرور جديدة",
+    "REPEAT_NEW_PASSWORD": "أعد إدخال كلمة المرور الجديدة",
+    "RESET_PASSWORD": "إعادة تعيين كلمة السر",
+    "ENTER_PASSWORD": "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمات المرور المستخدمة سابقًا.",
+    "BACK_TO_LOGIN": "العودة إلى تسجيل الدخول",
+    "RESET_SUCCESS_PASSWORD_MESSAGE": "تم إعادة تعيين كلمة السر بنجاح",
+    "YOU_CAN_NOW_LOGIN_MESSAGE": "يمكنك الآن تسجيل الدخول باستخدام بريدك الإلكتروني وكلمة السر الجديدة التي تم إنشاؤها",
+    "REQUIRED_PASSWORD": "كلمة المرور مطلوبة",
+    "PASSWORD_NOT_MATCHED": "كلمة المرور غير متطابقة",
+    "CONFIRM_PASSWORD_REQUIRED": "تأكيد كلمة المرور مطلوبة",
+    "SAVE_CHANGE": "حفظ التغييرات",
+    "SUCCESS": "تم بنجاح",
+    "CONFIRMATION_MSG": "تم تغيير كلمة المرور بنجاح",
+    "VERIFY_AND_PROCEED": "يرجى التحقق والمتابعة"
+  },
+  "COMP_SignUpForm": {
+    "FIRST_NAME": "الاسم الاول",
+    "LAST_NAME": "اسم العائلة",
+    "REQUIRED_FIRST_NAME": "الاسم الاول مطلوب",
+    "REQUIRED_LAST_NAME": "اسم العائلة مطلوب",
+    "EMAIL_ADDRESS": "عنوان البريد الإلكتروني",
+    "REQUIRED_EMAIL": "البريد الإلكتروني مطلوب",
+    "INVALID_EMAIL": "عنوان البريد الإلكتروني غير صالح",
+    "ALREADY_EMAIL_EXISTS": "نحن اسفون. البريد الإلكتروني لتسجيل الدخول موجود بالفعل. يرجى تجربة عنوان بريد إلكتروني مختلف للتسجيل، أو تسجيل الدخول إلى حسابك الحالي.",
+    "SIGNUP": "انشاء حساب جديد",
+    "OR": "أو",
+    "FACEBOOK_LOGIN": "تسجيل الدخول باستخدام فيسبوك",
+    "GOOGLE_LOGIN": "تسجيل الدخول باستخدام جوجل",
+    "HAVE_EMAIL": "هل لديك حساب",
+    "LOGIN": "تسجيل الدخول",
+    "REQUIRED_PASSWORD": "كلمة المرور مطلوبة",
+    "PASSWORD": "كلمة المرور",
+    "PASSWORD_REGX_MATCH": "يجب أن تحتوي كلمة المرور على حرف كبير وحرف صغير وتكون على الأقل 8 أحرف وحرف خاص واحد",
+    "CONFIRM_PASSWORD": "تأكيد كلمة المرور",
+    "CONFIRM_PASSWORD_MATCH": "كلمة المرور غير متطابقة",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "ACCEPT": "اوافق علي",
+    "TERMS_AND_CONDITIONS": "الشروط والأحكام",
+    "REQUIRED_TERMS_CONDITIONS": "الرجاء قبول الشروط والأحكام",
+    "PASSWORD_REGX_MESSAGE": "كلمة المرور يجب ان تتكون من 8 و تتضمن حرف كبير و حرف صغير علي الاقل",
+    "HAVE_AN_ACCOUNT": "هل لديك حساب؟",
+    "INDIVIDUAL": "فرد",
+    "CORPORATE": "شركة",
+    "SIGN_UP": "انشاء حساب",
+    "ORGANIZATION_NAME": "اسم الشركة",
+    "REQUIRED_ORGANIZATION_NAME": "الرجاء ادخال اسم الشركة",
+
+    "ConfirmModal": {
+      "SUCCESS_MSG": "لقد تمت عملية التسجيل بنجاح! مرحبًا في مجتمعنا!",
+      "SUCCESS_MSG_COUNTER": "جاري التوجيه في خلال {countdown} ثواني..."
+    }
+  },
+  "COMP_ContactUs": {
+    "EMAIL_ADDRESS": "البريد الالكتروني",
+    "ADDRESS": "العنوان",
+    "ENTER_EMAIL_ADDRESS": "ادخل البريد الالكتروني *",
+    "MESSAGE": "الرسالة",
+    "TYPE_MESSAGE": "اكتب رسالة",
+    "INVALID_EMAIL": "عنوان البريد الإلكتروني غير صالح",
+    "REQUIRED_EMAIL": "البريد الإلكتروني مطلوب",
+    "REQUIRED_PHONE": "برجاء ادخال رقم الهاتف",
+    "SEND_MESSAGE": "ارسال  ",
+
+    "LOCATION": "العنوان",
+    "ENTER_LOCATION": "ادخل العنوان",
+    "MOBILE_NUMBER": "رقم  الهاتف",
+    "MOBILE_PLACEHOLDER": "ادخل رقم الهاتف",
+
+    "REQUIRED_SUBJECT": "برجاء ادخال الموضوع",
+    "SUBJECT": "الموضوع",
+    "ENTER_SUBJECT": "ادخل الموضوع",
+    "REQUIRED_LOCATION": "برجاء ادخال العنوان",
+    "POPULAR_SERVICES": "خدمات مشهورة",
+    "SPECIAL_OFFERS": "عروض خاصة",
+    "VIEW_ALL": "عرض الكل"
+  },
+  "COMP_Modal_Content": {
+    "THANKS_MESSAGE": " تم إرسال رسالتك بنجاح",
+    "GO_TO_HOME": "العودة الي الرئيسية"
+  },
+  "COMP_Header": {
+    "INFO": "احصل على فحص مجاني",
+    "HOME": "الرئيسية",
+    "SERVICES": "خدماتنا",
+    "PRODUCTS": "المنتجات",
+    "MATERIALS": "الخامات",
+    "PACKAGES": "الباقات",
+    "ABOUT_US": "عنا",
+    "LOGIN": "تسجيل الدخول"
+  },
+  "COMP_Packages": {
+    "CHOOSE": "اختر"
+  },
+  "COMP_Packages_Header": {
+    "CORPORATE": "شركة",
+    "INDIVIDUAL": "فرد"
+  },
+  "COMP_TOP_PRODUCTS": {
+    "Top_Products": "أفضل المنتجات",
+    "View_All": "عرض الكل",
+    "Shop_Now": "تسوق الان"
+  },
+  "COMP_MiniCart": {
+    "SHOPPING_CART": "عربة التسوق",
+    "SUBTOTAL": "المجموع ",
+    "CART_LINK": "عرض العربة",
+    "CHECKOUT_LINK": "اتمام الشراء",
+    "COUNT": "العدد"
+  },
+  "COMP_AccountMenu": {
+    "MY_ACCOUNT": "حسابي",
+    "MY_ORDERS": "الطلبات",
+    "ORDER_RETURNS": "الاراجاع",
+    "ADDRESS": "العنواين",
+    "WISHLIST": "المفضلة",
+    "LOGIN": "تسجيل الدخول",
+    "SIGN_UP": "انشاء حساب",
+    "SIGN_OUT": "تسجيل  خروج"
+  },
+  "COMP_BuyNow": {
+    "BUY_NOW": "اشتري الان"
+  },
+  "COMP_BuyNowForm": {
+    "BUY_NOW_NOT_EXIST_MSG": "فشلت العملية",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا."
+  },
+  "COMP_ToolBar": {
+    "SEARCH": "بحث"
+  },
+  "COMP_ProductsList": {
+    "LIST_COUNT_TITLE": "عرض",
+    "ADD_TO_CART_BTN": "أضف إلى السلة",
+    "50_In_PAGE": "50 في الصفحة",
+    "100_In_PAGE": "100 في الصفحة",
+    "150_In_PAGE": "150 في الصفحة",
+    "BREAD_MAIN": "الرئيسية",
+    "BREAD_BAKED": "مخبوزات",
+    "NEXT_LABEL": "التالي",
+    "PREV_LABEL": "السابق",
+    "VIEW_TITLE": "عرض",
+    "SORT_BY_TITLE": "ترتيب حسب",
+    "RECENTLY_ARRIVED": "وصل حديثاً",
+    "ADD_TO_CART": "أضف إلى السلة",
+    "BEST_SELLER": "الأكثر مبيعاً",
+    "UNAVAILABLE_BTN": "غير متوفر",
+    "FOUND_ITEMS": "{count} نتائج البحث",
+    "FEATURED": "مميز",
+    "ALPHABET_AZ": "أبجدياً، من الألف إلى الياء",
+    "ALPHABET_ZA": "أبجدياً، من الياء إلى الألف",
+    "PRICE_LH": "السعر، من الأقل إلى الأعلى",
+    "PRICE_HL": "السعر، من الأعلى إلى الأقل",
+    "DATE_NO": "التاريخ، من الأحدث إلى الأقدم",
+    "DATE_ON": "التاريخ، من الأقدم إلى الأحدث",
+    "CLASSIFICATION_BY": "تصنيف حسب",
+    "ALLERGENS": "مسببات الحساسية",
+    "PRICE": "السعر",
+    "EMPTY_MSG": "لا توجد منتجات",
+    "BACK_TO_LIST": "العودة إلى القائمة"
+  },
+  "COMP_SidebarFilter": {
+    "FILTER_BY": "تصفية حسب",
+    "PRODUCTS": "المنتجات",
+    "REMOVE_ALL": "الغاء التغييرات",
+    "REVIEW": "التقييم",
+    "SERVICES": "الخدمات"
+  },
+  "COMP_Addresses": {
+    "ADDRESSES": "العناوين",
+    "ADD_NEW_ADDRESS": "اضافة عنوان جديد",
+    "SUCCESS_UPDATE_MSG": "تم تحديث العنوان بنجاح.",
+    "SUCCESS_ADD_MSG": "تم إضافة العنوان بنجاح."
+  },
+  "COMP_AddressItem": {
+    "EDIT": "تعديل",
+    "DELETE": "حذف",
+    "DELIVERY_ADDRESS": "عنوان التوصيل {type}",
+    "HOME": " المنزل",
+    "WORK": "للعمل",
+    "Default_ADDRESS": "استخدام كعنوان رئيسي",
+    "BUILDING": "رقم المبنى",
+    "FLOOR": "رقم الدور",
+    "FLAT": "الشقة"
+  },
+  "COMP_ProfileTabs": {
+    "WISHLIST": "المفضلة",
+    "MY_ORDERS": "الطلبات",
+    "ORDER_RETURN": "الإرجاع",
+    "LOCATION": "العناوين",
+    "MY_ACCOUNT": "معلوماتي الشخصية",
+    "LOG_OUT": " تسجيل الخروج",
+    "WELCOME": "مرحبا",
+    "SECTIONS": "الاقسام",
+    "SETTING": "الاعدادات",
+    "MY_QUOTES": "المعايانات",
+    "MY_SERVERS": "خدماتي"
+  },
+  "COMP_EmptyAddress": {
+    "NO_ADDRESS": "لا يوجد عنوان للشحن!"
+  },
+  "COMP_AddressForm": {
+    "ADDRESS_FORM": "إضافة عنوان جديد",
+    "LOCATION_DETAILS": "تفاصيل الموقع",
+    "ADDRESS_NAME": "اسم العنوان",
+    "OPTIONAL": "(اختياري)",
+    "HOME": "البيت",
+    "SELECT_DEFAULT": "استخدام كعنوان رئيسي",
+    "SAVE_ADDRESS": "حفظ العنوان",
+    "CANCEL": "الغاء",
+    "ADDRESS_DETAILS": "تفاصيل العنوان",
+    "NAME": "الاسم",
+    "PHONE": " رقم التليفون",
+    "GOVERNORATE": "المحافظة",
+    "REGION": "المنطقة",
+    "ADDRESS": "العنوان",
+    "BUILDING": "رقم المبنى",
+    "FLOOR": "رقم الدور",
+    "APARTMENT": "رقم الشقة",
+    "POSTAL_CODE": " رقم البريد  ",
+    "FIRST_NAME": "الاسم الأول",
+    "REQUIRED_FIRST_NAME": "الاسم الأول مطلوب",
+    "ERR_FIRST_NAME_MIN": "يجب عليك إدخال {length} حرفًا على الأقل.",
+    "ERR_FIRST_NAME_MAX": "يجب أن يكون طول الاسم أقل من {length} حرفًا.",
+    "LAST_NAME": "الاسم الأخير",
+    "REQUIRED_LAST_NAME": "الاسم الأخير مطلوب",
+    "ERR_LAST_NAME_MIN": "يجب عليك إدخال {length} حرفًا على الأقل.",
+    "ERR_LAST_NAME_MAX": "يجب أن يكون طول الاسم أقل من {length} حرفًا.",
+    "EMAIL_ADDRESS": "عنوان البريد الإلكتروني",
+    "REQUIRED_EMAIL": "البريد الإلكتروني مطلوب",
+    "INVALID_EMAIL": "عنوان البريد الإلكتروني غير صالح",
+    "ALREADY_EMAIL_EXISTS": "نحن اسفون. البريد الإلكتروني موجود بالفعل. يرجى تجربة عنوان بريد إلكتروني مختلف للتسجيل، أو تسجيل الدخول إلى حسابك الحالي.",
+    "PHONE_NUMBER": "رقم الهاتف",
+    "REQUIRED_PHONE_NUMBER": "برجاء ادخال رقم الهاتف",
+    "INVALID_PHONE_NUMBER": "رقم الهاتف غير صالح",
+    "CITY": "المدينة",
+    "REQUIRED_CITY": "يرجى اختيار مدينتك.",
+    "LINE1": "تفاصيل العنوان",
+    "REQUIRED_ADDRESS": "يرجى إدخال اسم الشارع أو أي معالم.",
+    "REQUIRED_BUILDING_NUMBER": "يرجى إدخال رقم المبنى الخاص بك",
+    "DEFAULT_SELECT": "اختار ...",
+    "REQUIRED_FLOOR_NUMBER": "يرجى إدخال رقم الطابق الخاص بك",
+    "FLAT": "الشقة",
+    "REQUIRED_FLAT_NUMBER": "يرجى إدخال رقم الشقة الخاص بك",
+    "SAVE_ADDRESSES": "حفظ العنوان",
+    "DISTRICT": "حي",
+    "REQUIRED_DISTRICT": "يرجى اختيار حيك",
+    "WORK": "العمل",
+    "OTHER": "اخر",
+    "REQUIRED_ADDRESS_TYPE": "الرجاء اختيار نوع العنوان.",
+    "SAVE": " حفظ العنوان ",
+    "Default_ADDRESS": "استخدام كعنوان رئيسي",
+    "COUNTRY": "البلد",
+    "SELECT_AS_MAIN_ADDRESS": "تحديد كعنوان رئيسي",
+    "EMAIL": "البريد الالكتروني"
+  },
+  "COMP_Remove_Address_Modal": {
+    "REMOVE_ADDRESS": " حذف العنوان",
+    "DO_REMOVE_ADDRESS": "هل أنت متأكد أنك تريد حذف العنوان؟",
+    "CONFIRM_REMOVE": "حذف",
+    "CANCEL": "الغاء",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا."
+  },
+  "Comp_My_Account": {
+    "PERSONAL_INFORMATION": "معلوماتك الشخصية",
+    "FIRST_NAME": "الاسم الأول",
+    "REQUIRED_FIRST_NAME": "الاسم الأول مطلوب",
+    "ERR_FIRST_NAME_MIN": "يجب عليك إدخال {length} حرفًا على الأقل.",
+    "ERR_FIRST_NAME_MAX": "يجب أن يكون طول الاسم أقل من {length} حرفًا.",
+    "LAST_NAME": "الاسم الأخير",
+    "REQUIRED_LAST_NAME": "الاسم الأخير مطلوب",
+    "ERR_LAST_NAME_MIN": "يجب عليك إدخال {length} حرفًا على الأقل.",
+    "ERR_LAST_NAME_MAX": "يجب أن يكون طول الاسم أقل من {length} حرفًا.",
+    "EMAIL_ADDRESS": "عنوان البريد الإلكتروني",
+    "REQUIRED_EMAIL": "البريد الإلكتروني مطلوب",
+    "INVALID_EMAIL": "عنوان البريد الإلكتروني غير صالح",
+    "ALREADY_EMAIL_EXISTS": "نحن اسفون. البريد الإلكتروني موجود بالفعل. يرجى تجربة عنوان بريد إلكتروني مختلف للتسجيل، أو تسجيل الدخول إلى حسابك الحالي.",
+    "PHONE_NUMBER": "رقم الهاتف",
+    "REQUIRED_PHONE_NUMBER": "برجاء ادخال رقم الهاتف",
+    "INVALID_PHONE_NUMBER": "رقم الهاتف غير صالح",
+    "DAY": "يوم",
+    "MONTH": "شهر",
+    "YEAR": "سنة",
+    "SAVE": "حفظ التغييرات",
+    "INVALID_BIRTH_DATE": "تاريخ الميلاد غير صالح. تأكد من أن اليوم والشهر والسنة داخلة في نطاقات صحيحة.",
+    "CANCEL": "الغاء",
+    "CHANGE_PASSWORD": "تغيير كلمة المرور",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "SUCCESS_MSG": "تم تحديث معلوماتك الشخصية بنجاح.",
+    "ACCOUNT_SETTINGS": "إعدادات الحساب",
+    "PROFILE_PICTURE": "صورة الملف الشخصي",
+    "GENERAL_INFORMATION": "معلومات عامة"
+  },
+  "COMP_MyOrders": {
+    "MY_ORDERS": "طلباتي",
+    "PRODUCT_SEARCH": "بحث",
+    "CURRENT_ORDERS": "الطلبات الحالية",
+    "COMPLETED_ORDERS": "الطلبات المكتملة",
+    "CANCELED_ORDERS": "الطلبات الملغاة"
+  },
+  "COMP_UnCompletedOrder": {
+    "ARRIVES_WITHIN": "يصل في خلال",
+    "CONTACT_WITH_DELIVERY": "تواصل مع الدليفري"
+  },
+  "COMP_CompletedOrder": {
+    "RETURN_ORDER": "إرجاع المنتجات"
+  },
+  "Comp_CurrentOrder": {
+    "MY_ORDERS": "طلباتي",
+    "PRODUCT_SEARCH": "بحث",
+    "CURRENT_ORDERS": "الطلبات الحالية",
+    "ORDERS_COMPLTED": "اكتمل الطلب",
+    "RETURNS": "المرتجعات",
+    "CANCELED_ORDERS": "الطلبات الملغاة"
+  },
+  "Comp_CurrentOrderCard": {
+    "ORDER_NUMBER": "رقم الطلب",
+    "DETAILS": "التفاصيل",
+    "PAYMENT_METHOD": "طريقة الدفع",
+    "PRICE": "السعر",
+    "QUANTITY": "الكمية",
+    "ORDER_DATE": "تاريخ الطلب"
+  },
+  "Comp_CompletedOrderCard": {
+    "ORDER_NUMBER": "رقم الطلب",
+    "DELIVERED": "تم التوصيل",
+    "PAYMENT_METHOD": "طريقة الدفع",
+    "PRICE": "السعر",
+    "EVALUATE": "تقييم",
+    "ORDER_RETURN": "ارجاع المنتج",
+    "DETAILS": "التفاصيل",
+    "QUANTITY": "الكمية",
+    "ORDER_DATE": "تاريخ الطلب"
+  },
+
+  "Comp_CanceledOrderCard": {
+    "ORDER_NUMBER": "رقم الطلب",
+    "CANCELED": "تم الالغاء",
+    "PAYMENT_METHOD": "طريقة الدفع",
+    "PRICE": "السعر",
+    "EVALUATE": "تقييم",
+    "ORDER_RETURN": "ارجاع المنتج",
+    "DETAILS": "التفاصيل",
+    "QUANTITY": "الكمية",
+    "ORDER_DATE": "تاريخ الطلب"
+  },
+  "Comp_OrderDetails": {
+    "ORDER_DETAILS": "تفاصيل الطلب",
+    "BILL": "الفاتورة",
+    "CART_SUMMARY": "ملخص الطلب",
+    "CANCEL_ORDER": "الغاء الطلب",
+    "PREPARING": "جاري التجهيز",
+    "CANCEL_MSG": "لا يمكنك إلغاء الطلب بعد تجهيز الطلب",
+    "DELIVERED_SUCCESS": "تم التوصيل بنجاح",
+    "ORDER_NUMBER": "رقم الطلب",
+    "ON_THE_ROAD": "في الطريق",
+    "DELIVERED": "تم التوصيل",
+    "OUT_FOR_DELIVERY": "خارج للتوصيل",
+    "ORDER_RETURN": "ارجاع المنتج",
+    "CANCEL_INQUIRY": "هل أنت متأكد أنك تريد إلغاء الطلب ؟",
+    "YES": "نعم",
+    "NO": "لا",
+    "DISCOUNT": "خصم",
+    "TAX": "ضريبة القيمة المضافة",
+    "SHIPPING_FEES": "رسوم الشحن",
+    "SUB_TOTAL": "المجموع الفرعي",
+    "QUANTITY": "الكمية",
+    "CANCEL": "الغاء الطلب",
+    "SHIPPING_DETAILS": "تفاصيل الشحن",
+    "AMOUNT": "المبلغ :",
+    "ORDER_DATE": "تاريخ الطلب :",
+    "DELIVERY_DATE": "تاريخ التوصيل :",
+    "WORK": "العمل",
+    "HOME": "المنزل",
+    "OTHER": "اخر",
+    "PROCESSING": "جاري التجهيز",
+    "SHIPPING": "في الطريق",
+    "COMPLETED": "تم التوصيل",
+    "BUILDING": "رقم المبنى",
+    "FLOOR": "رقم الدور",
+    "FLAT": "الشقة",
+    "TOTAL": "المجموع"
+  },
+  "COMP_Empty_Template": {
+    "SHOW_NOW": "عرض الان",
+    "NO_FAVORITE_PRODUCTS": "لا توجد منتجات في المفضلة لديك"
+  },
+  "COMP_Wishlist": {
+    "MOVE_TO_CART_BTN_LBL": "انقل إلى السلة",
+    "ERR_MOVE_TO_CART_MSG": "عذرًا، حدث خطأ، لم نتمكن من دمج السلال.",
+    "Shop_Now": "تسوق الان"
+  },
+  "COMP_Services_Details": {
+    "SERVICES_TITLE": "خدمة التنظيف العامة",
+    "GET_INSPECTION": "طلب معاينة",
+    "CONTACT_US": "تواصل معنا",
+    "SERVICES_DETAILS": "تفاصيل الخدمة",
+    "AFFORDABLE_WAY": "طريقة ميسورة التكلفة لحجز خدمات تنظيف المنزل",
+    "CLEANING_SERVICES": "لماذا حجز خدمات التنظيف من خلال SAB؟",
+    "GALLERY": "المعرض",
+    "VIDEO": "فيديو",
+    "RELATED_SERVICES": " خدمات ذات صلة  "
+  },
+  "COMP_Services": {
+    "GET_INSPECTION": "طلب معاينة"
+  },
+  "COMP_Product_Summary": {
+    "SUB_TOTAL": "المجموع الفرعي",
+    "SHIPPING_FEES": "رسوم الشحن",
+    "TOTAL": "المجموع",
+    "REVIEW_ORDER": "مراجعة الطلب",
+    "ENTER_COUPON": "ادخل كود الخصم",
+    "TOTAL_ITEMS": "مجموع العناصر",
+    "TOTAL_ORDER": "مجموع الطلب",
+    "APPLY": "تطبيق",
+    "PROCEED_TO_PAY": "متابعة  عملية الشراء ",
+    "REMOVE_CART_ITEM_MESSAGE": "        حذف العنصر ",
+    "CONFIRM_REMOVE": "حذف",
+    "CLEAR_CART_MESSAGE": "هل انت متاكد من تفريغ عربة التسوق؟",
+    "CONFIRM_CLEAR": "حذف",
+    "DISCOUNT_ALERT": "إجمالي مدخراتك على هذا الطلب  {DISCOUNT} دولار",
+    "COUPON_DISCOUNT": "خصم الكوبون",
+    "CANCEL": "الغاء",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "DISCOUNT": "خصم",
+    "TAX": "ضريبة القيمة المضافة",
+    "INVALID_QUANTITY_MESSAGE": "الكمية المتاحة من هذا النتج هي  ",
+    "CLEAR": " مسح الكل",
+    "REMOVE": "حذف",
+    "REMOVE_CONFIRMATION": "هل انت متأكد من حذف هذا العنصر ؟ "
+  },
+  "COMP_Checkout": {
+    "SUB_TOTAL": "المجموع الفرعي قبل الخصم",
+    "SHIPPING_FEES": "رسوم الشحن",
+    "DISCOUNT": "خصم",
+    "TAX": "ضريبة القيمة المضافة",
+    "TOTAL": "المجموع",
+    "REVIEW_ORDER": "مراجعة الطلب",
+    "ENTER_DISCOUNT_CODE": "ادخل كود الخصم",
+    "APPLY": "تطبيق",
+    "COMPLETE_PURCHASE": "اتمام عملية الشراء ",
+    "REQUIRED_SHIPMENT_ADDRESS": "الرجاء إدخال عنوان التسليم الخاص بك",
+    "REQUIRED_PAYMENT_METHOD_ADDRESS": "الرجاء تحديد خيار الدفع الخاص بك",
+    "GENERIC_ERR_MSG": "عذرًا! حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.",
+    "INVALID_ITEMS_SHIPMENTS_MSG": "تأكد من وجود العناصر في السلة واختيار طريقة الشحن الخاصة بك، من فضلك.",
+    "QUANTITY": "الكمية",
+    "NEXT": "التالي",
+    "BACK": "العودة",
+    "HOME": " المنزل",
+    "WORK": "للعمل",
+    "Default_ADDRESS": "استخدام كعنوان رئيسي",
+    "BUILDING": "رقم المبنى",
+    "FLOOR": "رقم الدور",
+    "FLAT": "الشقة",
+    "ORDER_SUMMARY": "مراجعة الطلب",
+    "ORDER_SUCCESS_MESSAGE": "تم اكتمال طلبك بنجاح",
+    "GO_TO_HOME": "الذهاب إلى الصفحة الرئيسية",
+    "PAYMENT_METHOD": "طريقة الدفع",
+    "PAYMENT_FAILED": "تم رفض الدفع الالكتروني",
+    "CANCEL": "الغاء",
+    "QnbMethod": "بطاقة ائتمان",
+    "DefaultManualPaymentMethod": "دفع عند الاستلام",
+    "TRACK_ORDER": "تتبع الطلب",
+    "TOTAL_ITEMS": "مجموع العناصر",
+    "TOTAL_ORDER": "مجموع الطلب",
+    "ENTER_COUPON": "ادخل كود الخصم"
+  },
+  "COMP_Shipping_Address": {
+    "SHIPPING_ADDRESS": "عنوان الشحن",
+    "SHIPPING_TO_YOUR_LOCATION": "شحن الي موقعك",
+    "TAKE_FROM_NEARST_STORE": "الاستلام من اقرب فرع",
+    "HOME": "البيت",
+    "CHANGE": "تغيير",
+    "DELIVERY_ADDRESS": "عنوان التوصيل",
+    "NAME": "الاسم",
+    "ADDRESS": "العنوان",
+    "PHONE_NUMBER": "رقم التليفون",
+    "PAYMENT_METHOD": "طرق الدفع ",
+    "PAYMENT_USING_CART": "الدفع باستخدام البطاقة",
+    "ADD_MY_CARD": "اضافة بطاقتي",
+    "PAYMENT_CASH_WHEN_RECEIVING": "الدفع  كاش عند الاستلام",
+    "ADD_NEW_ADDRESS": "اضافة عنوان جديد",
+    "CONFIRM": "تأكيد",
+    "CANCEL": "الغاء",
+    "ADD": "اضافة عنوان"
+  },
+  "COMP_PaymentMethod": {
+    "PHONE_NUMBER": "رقم التليفون",
+    "PAYMENT_METHOD": "طرق الدفع ",
+    "PAYMENT_USING_CART": "الدفع باستخدام البطاقة",
+    "ADD_MY_CARD": "اضافة بطاقتي",
+    "PAYMENT_CASH_WHEN_RECEIVING": "الدفع  كاش عند الاستلام",
+    "ADD_NEW_ADDRESS": "اضافة عنوان جديد",
+    "CARD_NUMBER": "رقم البطاقة",
+    "EXPIRATION_DATE": "تاريخ انتهاء الصلاحية",
+    "MONTH_DAY": "شهر / سنة",
+    "CODE": "الكود",
+    "CANCEL": "الغاء"
+  },
+  "COMP_CHECKOUT_AddressItem": {
+    "EDIT": "تعديل",
+    "DELETE": "حذف",
+    "DELIVERY_ADDRESS": "عنوان التوصيل {type}",
+    "HOME": "إلى المنزل",
+    "WORK": "للعمل",
+    "Default_ADDRESS": "استخدام كعنوان رئيسي",
+    "BUILDING": "رقم المبنى",
+    "FLOOR": "رقم الدور",
+    "FLAT": "الشقة"
+  },
+  "ORDER_CONFIRMATION": {
+    "MSG": "تم استكمال طلبك بنجاح!<br></br> يسرنا أن نعلمك أن طلبك قد تم معالجته بنجاح وسيتم شحنه في أقرب وقت ممكن.<br></br> شكرًا لثقتكم بنا!<br></br> سيتم تحويل الصفحة إلى فاتورة الطلب في خلال <strong>{countdown}</strong> ثوانٍ."
+  },
+  "ORDER_REJECTION": {
+    "MSG": "تم رفض دفع طلبك!<br></br> نأسف لإبلاغكم أن عملية الدفع الخاصة بطلبك تم رفضها.<br></br> سيتم تحويل الصفحة إلى فاتورة الطلب في خلال <strong>{countdown}</strong> ثوانٍ."
+  },
+  "COMP_Footer": {
+    "SUBSCRIBE": "اشترك للحصول على عروض حصرية، بدون رسائل غير مرغوب فيها، وبدون إهدار.",
+    "ALL": "الكل",
+    "HOME": "الرئيسية",
+    "SERVICES": "الخدمات",
+    "PRODUCTS": "المنتجات",
+    "MATERIALS": "المواد",
+    "PRICING": "الأسعار",
+    "CONTACT_US": "اتصل بنا",
+    "HELP": "المساعدة"
+  },
+  "COMP_EMPTY_ORDERS": {
+    "EMPTY_MSG": "لا توجد طلبات"
+  },
+  "COMP_Profile_Address": {
+    "EMPTY_MSG": "لا توجد عنواين"
+  },
+  "COMP_Custom404": {
+    "NOT_FOUND_MESSAGE": "الصفحة غير موجودة",
+    "BACK_TO_HOME": "العودة الي الصفحة الرئيسية"
+  },
+  "COMP_My_Bookings": {
+    "INSPECTION_COMPLETED": "اكتملت المعاينة",
+    "PENDING_INSPECTION": "في انتظار المعاينة",
+    "INPROGRESS_INSPECTION": "المعاينة قيد التقدم",
+    "CANCELED_INSPECTION": "المعاينة الملغاه"
+  },
+  "COMP_Completed_Inspection": {
+    "GENERAL_CLEANING_SERVICES": "خدمات التنظيف العامة",
+
+    "BOOK_SERVICES": "احجز خدمة",
+    "MORE_DETAILS": "المزيد من التفاصيل"
+  },
+  "COMP_Book_Services": {
+    "APPOINTMENT": "الموعد",
+    "PAYMENT": "الدفع",
+    "DONE": "اكتمل",
+    "BOOK_SERVICES": "احجز خدمة",
+    "DATE_PICKER": "اختر التاريخ",
+    "TIME_PICKER": "اختر الوقت",
+    "BOOKING_DATE": "تاريخ الحجز",
+    "LOCATION": "العنوان",
+    "PRICE": "السعر",
+    "CUSTOMER": "العميل",
+    "MORE_DETAILS": "المزيد من التفاصيل",
+    "BOOK_APPOINTMENT": "احجز ميعاد"
+  },
+  "COMP_PAYMENT": {
+    "BOOKING_DATE": "تاريخ الحجز",
+    "LOCATION": "العنوان",
+    "PRICE": "السعر",
+    "CUSTOMER": "العميل",
+    "SERVICES_PROVIDER": "مزود الخدمات",
+    "SUB_TOTAL": "المجموع الفرعي",
+    "COUPON_DISCOUNT": "خصم الكوبون",
+    "SERVICES_CHARGE": "خدمة الشحن",
+    "TOTAL": "المجموع ",
+    "COUPON_CODE": "كود الخصم",
+    "APPLY": "تطبيق",
+    "SUCCESS": "تم بنجاح",
+    "COUPON_ERR": "خطأ، القسيمة غير صالحة يرجى التحقق مرة أخرى",
+    "APPOINTMENT": "الموعد",
+    "PAYMENT": "الدفع",
+    "DONE": "اكتمل",
+    "BOOK_SERVICES": "احجز خدمة",
+    "PENDING": "قيد الانتظار",
+    "CONFIRM": "تأكيد",
+    "CASH": "كاش",
+    "CREDIT_DEDIT_CARD": "بطاقة الائتمان / الخصم"
+  },
+  "COMP_Booking_Successfully": {
+    "APPOINTMENT": "الموعد",
+    "PAYMENT": "الدفع",
+    "DONE": "اكتمل",
+    "BOOK_SERVICES": "احجز خدمة",
+    "SUCCESS_MSG": "لقد تم   الحجز بنجاح",
+    "GO_TO_HOME": "العودة الي الرئيسية",
+    "BOOKING_HISTORY": "تاريخ الحجز",
+    "BOOKING_DATE": "تاريخ الحجز",
+    "LOCATION": "العنوان",
+    "PRICE": "السعر",
+    "CUSTOMER": "العميل",
+    "CASH_PAYMENT_METHOD": "طريقة الدفع النقدي",
+    "SERVICES_PROVIDER": "مزود الخدمات",
+    "SUB_TOTAL": "المجموع الفرعي",
+    "COUPON_DISCOUNT": "خصم الكوبون",
+    "SERVICES_CHARGE": "خدمة الشحن",
+    "TOTAL": "المجموع ",
+    "REMOVE": "حذف",
+    "CONFIRM": "تأكيد",
+    "CANCEL_CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء  الخدمة؟",
+    "YES": "نعم",
+    "NO": "لا"
+  },
+  "COMP_Pending_Inspection": {
+    "BOOKING_HISTORY": "تاريخ الحجز",
+    "BOOKING_DATE": "تاريخ الحجز",
+    "LOCATION": "العنوان",
+    "PRICE": "السعر",
+    "CUSTOMER": "العميل",
+    "CONTACT_US": "تواصل معنا",
+    "WAITING_FOR_COMMENT": "في انتظار تعليقك",
+    "CANCEL_SERVICES": "الغاء الخدمة",
+    "YOUR_ACTION": "تفاعلك",
+    "PENDING": "قيد الانتظار",
+    "INCORRECT_EMAIL": "لقد حاولنا الاتصال بك ولكن بريدك الإلكتروني غير صحيح",
+    "INVALID_EMAIL": "عنوان البريد الإلكتروني غير صالح",
+    "REQUIRED_EMAIL": "يرجى إدخال عنوان بريد إلكتروني أو رقم هاتف صالح",
+    "PLEASE_ENTER_YOUR_MAIL": "برجاء ادخال الايميل",
+    "SEND": "إرسال",
+    "CANCEL": "الغاء"
+  },
+  "COMP_Inprogress_Inspection": {
+    "BOOKING_HISTORY": "تاريخ الحجز",
+    "BOOKING_DATE": "تاريخ الحجز",
+    "LOCATION": "العنوان",
+    "PRICE": "السعر",
+    "CUSTOMER": "العميل",
+    "CONTACT_US": "تواصل معنا",
+    "WAITING_FOR_COMMENT": "في انتظار تعليقك",
+    "CANCEL_SERVICES": "الغاء الخدمة",
+    "YOUR_ACTION": "تفاعلك",
+    "PENDING": "قيد الانتظار",
+    "CANCEL_CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء  الخدمة؟",
+    "YES": "نعم",
+    "NO": "لا"
+  },
+  "COMP_MyBooking": {
+    "EMPTY_MSG": "لا توجد طلبات"
+  },
+  "COMP_HomeBanner": {
+    "TITLE": "خدمة احترافيه لمنزلك و مكانك التجاري",
+    "SUBTITLE": "اختر شركة ساب للتنظيف للحصول على الخبرة المثبتة، وفريق محترف، وممارسات صديقة للبيئة، وحلول شخصية. احصل على مساحات نظيفة وصحية معنا!",
+    "CALL_US": "تواصل معنا الآن",
+    "ADDRESS": "العنوان",
+    "POPULARITY": "نحظى بثق أكثر من 500 شخص",
+    "FIRST_LINK": "ابحث عن خدمتك",
+    "SECOND_LINK": "ابحث عن منتجك"
+  },
+
+  "COMP_Cleaning_Cards": {
+    "WHY_CHOOSE": "لماذا تختارنا",
+    "EXCEPTIONAL": "تنظيف",
+    "CLEANING": "استثنائي",
+    "AND": "و",
+    "MAINTAINANCE": "صيانة",
+    "DESCRIPTION": "اختر شركة ساب للتنظيف للخبرة المثبتة، وفريق محترف، وممارسات صديقة للبيئة، وحلول شخصية. احصل على مساحات أكثر نظافة وصحة معنا!"
+  },
+
+  "COMP_How_Works": {
+    "TITLE": "كيف يعمل",
+    "SUBTITLE": "منظفون فعّالون، ودودون، ومحترفون، رضاكم مضمون!",
+    "STEP1": "ابحث عن ما تريده",
+    "STEP2": "اختر ما تريد القيام به",
+    "STEP3": "منظف معتمد",
+    "STEP4": "احصل على خدمة مذهلة"
+  },
+  "COMP_Featured_Services": {
+    "FEATURED_SERVICES": "خدمات مميزة",
+    "FEATURES_DESCRIPTION": "اكتشف أعظم خدماتنا. لن تشعر بخيبة أمل"
+  },
+  "COMP_Services_Card": {
+    "VIEW_DETAILS": "عرض التفاصيل"
+  },
+  "COMP_Free_Trial": {
+    "TRY_FREE_TRIAL": "جرب تجربتنا المجانية"
+  },
+  "COMP_Find_Your_Services": {
+    "SERVICES_TYPE_TITLE": "ما هو نوع الخدمة الذي ستأخذه بعين الاعتبار لعرض الأسعار الخاص بك؟",
+    "SERVICES_TYPE_DESCRIPTION": "سيقوم الفنيون ذوو المهارات العالية لدينا بإزالة رواسب الشحوم بدقة والتأكد من ضخ جميع النفايات بالكامل.",
+    "CLEANING_SERVICES": "خدمات التنظيف",
+    "COOKING": "جمع نفايات زيوت الطبخ"
+  },
+  "COMP_Cleaning_Services": {
+    "CLEANING_SERVICES_TITLE": "عمل جيد، الآن دعونا نختار ما الذي تحتاج إلى تنظيفه؟",
+    "CLEANING_SERVICES_DESCRIPTION": "سيقوم الفنيون ذوو المهارات العالية لدينا بإزالة رواسب الشحوم بدقة والتأكد من ضخ جميع النفايات بالكامل.",
+    "TANK_CLEANING": "تنظيف الخزانات",
+    "GREASE_CLEANING": "تنظيف الشحوم"
+  },
+  "COMP_Tank_Cleaning": {
+    "TANK_CLEANING_TITLE": "دعنا نجد خدمتك!",
+    "TANK_CLEANING_DESCRIPTION": "الصفحة الرئيسية العثور على الخدمات",
+    "SERVICES_TANK_CLEANING": " هذه هي خدماتنا “تنظيف الخزانات” التي نتمناها لكم",
+    "SERVICES_CLEANING_DESC": "سيقوم الفنيون ذوو المهارات العالية لدينا بإزالة رواسب الشحوم بدقة والتأكد من ضخ جميع النفايات بالكامل.",
+    "WHAT_YOU_ARE_LOOKING_FOR": "هل وجدت ما كنت تبحث عنه.",
+    "SERVICES_YOU_HOPE_TO_ADD": "الخدمة التي تأمل في إضافتها",
+    "MODAL_TITLE": "الخدمة التي تأمل في إضافتها",
+    "MODAL_DESC": "يسعدنا اقتراحك لأي خدمة من شأنها أن تساعدك في المستقبل",
+    "HOW_CAN_I_HELP_YOU": "كيف يمكننا مساعدتك؟",
+    "REQUIRED_MESSAGE": "برجاء ادخال  رسالتك",
+    "SEND_MESSAGE": "ارسال  ",
+    "CANCEL": "الغاء"
+  },
+  "COMP_Grease_Cleaning": {
+    "GREASE_CLEANING_TITLE": "دعنا نجد خدمتك!",
+    "GREASE_CLEANING_DESCRIPTION": "الصفحة الرئيسية العثور على الخدمات",
+    "SERVICES_TANK_CLEANING": " هذه هي خدماتنا “تنظيف الخزانات” التي نتمناها لكم",
+    "WHAT_YOU_ARE_LOOKING_FOR": "هل وجدت ما كنت تبحث عنه.",
+    "SERVICES_CLEANING_DESC": "سيقوم الفنيون ذوو المهارات العالية لدينا بإزالة رواسب الشحوم بدقة والتأكد من ضخ جميع النفايات بالكامل.",
+    "SERVICES_YOU_HOPE_TO_ADD": "الخدمة التي تأمل في إضافتها",
+    "MODAL_TITLE": "الخدمة التي تأمل في إضافتها",
+    "MODAL_DESC": "يسعدنا اقتراحك لأي خدمة من شأنها أن تساعدك في المستقبل",
+    "HOW_CAN_I_HELP_YOU": "كيف يمكننا مساعدتك؟",
+    "REQUIRED_MESSAGE": "برجاء ادخال  رسالتك",
+    "SEND_MESSAGE": "ارسال  ",
+    "CANCEL": "الغاء"
+  },
+  "Comp_Empty_Template": {
+    "EMPTY_CART_MESSAGE": "عذرًا، لم تقم بإضافة أي شيء إلى سلة التسوق",
+    "SHOPPING_NOW": "تسوق الان",
+    "TRY_FREE_TRIAL": "جرب تجربتنا المجانية"
+  },
+  "COMP_MobileFilter": {
+    "REMOVE_ALL": "الغاء التغييرات",
+    "SERVICES": "الخدمات",
+    "REVIEW": "التقييم"
+  },
+  "COMP_Technical_Services": {
+    "FIRST_TITLE": "إنه لمن دواعي سرورنا أن نقدم شركة المحترف للصرف الصحي",
+    "SECOND_TITLE": "أعمال الخدمات الفنية"
+  },
+  "COMP_About_Banner": {
+    "ABOUT_US": "معلومات عنا"
+  },
+  "COMP_Why_Choose_Us": {
+    "TRUSTED_PEOPLE": "موثوق به من قبل أكثر من 500000 شخص",
+    "WHY_CHOOSE_US": "لماذا أخترتنا",
+    "SERVICES_OFFER": "ما هي الخدمات التي تقدمها؟",
+    "SERVICES_DESC": "نحن نقدم مجموعة واسعة من خدمات الصرف الصحي بما في ذلك التخلص من النفايات والتنظيف والصيانة.",
+    "PROVIDE_SERVICES": "هل تقدمون خدمات الطوارئ؟",
+    "AREA_SERVICES": "ما هي المجالات التي تقدمونها؟"
+  },
+  "COMP_Our_Clients": {
+    "OUR_CLIENT_TITLE": "ما يقوله عميلنا"
+  }
+}

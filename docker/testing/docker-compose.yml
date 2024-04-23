@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  al-khbaz-website-env-testing:
+    build:
+      context: ../../
+      dockerfile: docker/testing/Dockerfile
+    image: al-khbaz-website-env-testing
+    env_file:
+      - ../../.env.test
+    ports:
+      - ${ALKHBAZ_WEBSITE_TESTING_EXPOSED_PORT}:8092

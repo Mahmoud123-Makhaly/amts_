@@ -1,0 +1,26 @@
+.mobile-filter {
+  max-width: 100%;
+
+  .filter-items {
+    overflow-x: auto;
+    border-bottom: 1px solid #d0d5dd;
+    padding: 1rem 1rem 1rem 0rem;
+    margin-bottom: 0.5rem !important;
+
+    .filter-item {
+      text-wrap: nowrap;
+    }
+  }
+
+  &.offcanvas {
+    height: max-content !important;
+
+    .offcanvas-header {
+      .offcanvas-title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+  }
+}

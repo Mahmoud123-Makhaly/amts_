@@ -1,0 +1,35 @@
+.modal {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  .modal-body {
+    height: auto;
+    overflow: auto;
+    max-height: 80vh;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 12px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #808080;
+      border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+      border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-corner {
+      background-color: #f1f1f1;
+    }
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+  }
+}

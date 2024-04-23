@@ -1,0 +1,17 @@
+.contact-form {
+    form {
+        input {
+            border-radius: 0.25rem;
+            border: 0.5px solid $light-blue;
+            background-color: transparent;
+            color: $light-blue;
+            display: flex;
+            width: 100%;
+            height: 3rem;
+            padding: 1.5rem 0.5rem;
+            align-items: center;
+            gap: 0.625rem;
+            font-weight: 300;
+        }
+    }
+}

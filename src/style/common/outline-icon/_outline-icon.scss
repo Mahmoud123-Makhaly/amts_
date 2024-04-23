@@ -1,0 +1,9 @@
+@for $i from 1 through 200 {
+    .outline-icon-#{$i} {
+        width: #{$i}px;
+        height: #{$i}px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

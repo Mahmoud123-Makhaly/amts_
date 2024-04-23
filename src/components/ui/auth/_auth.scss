@@ -1,0 +1,27 @@
+.auth-page {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  .auth-form {
+    .auth-header {
+      font-weight: 600;
+    }
+    .formMaker{
+      width: 100%;
+      .row{
+        row-gap: 0.5rem !important;
+      }
+    }
+  }
+}
+
+// @include for-phone {
+//   .auth-page {
+//     .auth-form {
+//       padding: 72px 1rem;
+//     }
+//   }
+// }

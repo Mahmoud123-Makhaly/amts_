@@ -1,0 +1,56 @@
+@import './basic-product-card';
+@import './service-card';
+@import './review-card';
+@import './work-card';
+
+.card {
+  border: none;
+  display: flex;
+  width: 100%;
+  position: relative;
+
+  .favorite-btn {
+    width: 29px;
+    height: 29px;
+    padding: 3px;
+  }
+
+  .card-body {
+    border: none;
+    padding: 0;
+
+    th {
+      padding: 0;
+      font-weight: normal;
+
+      p {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.standard {
+  padding-bottom: 67%;
+}
+
+.square {
+  padding-bottom: 100%;
+}
+
+.square,
+.standard {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+@include for-large-phones {
+  .card {
+    &.hcard {
+      flex-direction: column;
+    }
+  }
+}

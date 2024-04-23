@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  totplatform-website-env-development:
+    build:
+      context: ../../
+      dockerfile: docker/development/Dockerfile
+    image: totplatform-website-env-development
+    env_file:
+      - ../../.env.development
+    ports:
+      - ${TOTPLATFORM_WEBSITE_DEVELOPMENT_EXPOSED_PORT}:8091

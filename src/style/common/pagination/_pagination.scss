@@ -1,0 +1,112 @@
+ul.react-paginate {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0 5rem;
+}
+
+ul.react-paginate li {
+  margin: 0 5px;
+  border: 1px solid $light-gray;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &.disabled {
+    background-color: $light-blue;
+  }
+
+  a {
+    color: $black !important;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+ul.react-paginate li.previous,
+ul.react-paginate li.next {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  a {
+    &[aria-disabled='true'] {
+      color: $black !important;
+      cursor: default;
+    }
+
+    &[aria-disabled='false'] {
+      color: $primary !important;
+    }
+  }
+}
+
+[data-layout-dir='rtl'] {
+  ul.react-paginate li.previous {
+    ::before {
+      content: '\f101';
+      font-family: 'FontAwesome';
+
+    }
+  }
+
+  ul.react-paginate li.next {
+    ::after {
+      content: '\f100';
+      font-family: 'FontAwesome';
+    }
+  }
+}
+
+[data-layout-dir='ltr'] {
+  ul.react-paginate li.next {
+    ::after {
+      content: '\f101';
+      font-family: 'FontAwesome';
+
+    }
+  }
+
+  ul.react-paginate li.previous {
+    ::before {
+      content: '\f100';
+      font-family: 'FontAwesome';
+    }
+  }
+}
+
+ul.react-paginate li.selected {
+  background-color: $primary;
+
+  a {
+    color: $white !important;
+  }
+}
+
+ul.react-paginate li.disabled a {
+  color: $black;
+}
+
+@include for-phone {
+  ul.react-paginate {
+    padding: 0;
+
+    li {
+      a {
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}

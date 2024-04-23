@@ -1,0 +1,65 @@
+.plans {
+    overflow: visible;
+    flex-wrap: nowrap;
+
+    .col {
+        min-width: 240px;
+    }
+}
+
+.payment-plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    border: 1px solid #E1E1E1;
+    border-radius: 1rem;
+    padding: 3.5rem 2rem;
+
+    .package-label {
+        align-self: flex-start;
+        top: 0;
+        right: 1rem;
+        background-color: $primary;
+        padding: 0.75rem;
+
+    }
+
+    .plan-price {
+
+        h2,
+        p {
+            font-weight: 300;
+        }
+
+
+    }
+
+    .plan-title {
+        h4 {
+            margin-bottom: 0;
+        }
+    }
+
+    .plan-btn {
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+}
+
+.standard-plan {
+    margin: 1rem;
+    transform: scale(1.14);
+
+    .plan-title {
+        background-color: $warning;
+        color: $white;
+    }
+}
+
+@include for-desktop {
+    .plans {
+        overflow-x: auto;
+    }
+}

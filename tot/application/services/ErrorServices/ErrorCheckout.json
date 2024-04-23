@@ -1,0 +1,50 @@
+{
+  "CHECK_CART_LOAD_ERR": {
+    "en": "An error occurred while loading your cart data. Please ensure that your internet connection is stable and try again.",
+    "ar": "عذرًا! حدث خطأ أثناء تحميل بيانات سلتك. يرجى التأكد من استقرار اتصال الإنترنت الخاص بك والمحاولة مرة أخرى."
+  },
+  "CHECK_VALIDATION_ERR_DEFAULT": {
+    "en": "An error occurred during the checkout validation process. Please try again.",
+    "ar": "عذرًا! حدث خطأ أثناء عملية التحقق من الطلب. يرجى المحاولة مرة أخرى."
+  },
+  "CHECK_AVAIL_PROC_EMPTY_ITEMS": {
+    "en": "It appears your cart is empty. Please continue shopping before proceeding to checkout.",
+    "ar": "عذرًا! يبدو أن سلتك فارغة. يرجى متابعة التسوق قبل المتابعة لعملية الشراء."
+  },
+  "CHECK_AVAIL_PROC_OUT_OF_STOCK": {
+    "en": "The following products ({products}) are currently out of stock. Please remove them from your cart or adjust the quantities before proceeding.",
+    "ar": "عذرًا! المنتجات التالية ({products}) غير متوفرة حاليًا. يرجى إزالتها من سلة التسوق أو تعديل الكميات قبل المتابعة."
+  },
+  "CHECK_AVAIL_ERR_DEFAULT": {
+    "en": "An error occurred during the availability checkout validation process. Please try again.",
+    "ar": "حدث خطأ أثناء عملية التحقق من التوفر أثناء الدفع. يرجى المحاولة مرة أخرى."
+  },
+  "CHECK_INV_STOCK_PROC_ERR_DEFAULT": {
+    "en": "An error occurred during the inventory stock checkout validation process. Please try again.",
+    "ar": "حدث خطأ أثناء عملية التحقق من مخزون المخزن. يرجى المحاولة مرة أخرى."
+  },
+  "CHECK_INV_STOCK_PROC_ERR_OUT_OF_STOCK": {
+    "en": "Unfortunately, the following products ({products}) are not available in the selected inventory. Please remove them from your cart or adjust the quantities before proceeding.",
+    "ar": "للأسف، المنتجات التالية ({products}) غير متوفرة في المخزون المحدد. يرجى إزالتها من سلة التسوق أو تعديل الكميات قبل المتابعة."
+  },
+  "CHECK_STRUCT_PROC_ERR_DEFAULT": {
+    "en": "It seems the selected shipment or payment method is invalid. Please retry and select valid options before proceeding.",
+    "ar": "عذرًا! يبدو أن طريقة الشحن أو الدفع المُحددة غير صالحة. يرجى إعادة المحاولة واختيار خيارات صالحة قبل المتابعة."
+  },
+  "CHECK_STRUCT_PROC_ERR_SHIPMENT": {
+    "en": "Before proceeding, please select a shipment method and ensure all required information is entered correctly.",
+    "ar": "عذرًا! قبل المتابعة، يرجى اختيار طريقة الشحن والتأكد من إدخال جميع المعلومات المطلوبة بشكل صحيح."
+  },
+  "CHECK_STRUCT_PROC_ERR_PAYMENT": {
+    "en": "Before proceeding, please select a payment method and ensure all required information is entered correctly.",
+    "ar": "عذرًا! قبل المتابعة، يرجى اختيار طريقة الدفع والتأكد من إدخال جميع المعلومات المطلوبة بشكل صحيح."
+  },
+  "CHECK_STRUCT_PROC_ERR_ITEMS_REQUIRED": {
+    "en": "Your cart is empty. Please continue shopping before proceeding to checkout.",
+    "ar": "عذرًا! سلة التسوق فارغة. يرجى متابعة التسوق قبل المتابعة لعملية الشراء."
+  },
+  "CHECK_STRUCT_PROC_ERR_TOTAL_AMOUNT_INVALID": {
+    "en": "The total amount in your cart is invalid, equal to zero, or less. Please continue shopping and ensure you add products with reasonable prices before proceeding.",
+    "ar": "عذرًا! إجمالي المبلغ في سلة التسوق غير صالح، يساوي الصفر أو أقل. يرجى متابعة التسوق والتأكد من إضافة منتجات بأسعار منطقية قبل المتابعة."
+  }
+}

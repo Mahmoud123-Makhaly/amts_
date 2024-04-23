@@ -1,0 +1,15 @@
+.figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+
+  .fig-caption {
+    width: 100%;
+    position: relative;
+    padding: 1rem 0;
+  }
+}
+

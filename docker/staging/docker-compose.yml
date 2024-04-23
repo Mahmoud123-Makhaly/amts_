@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  totplatform-website-env-staging:
+    build:
+      context: ../../
+      dockerfile: docker/staging/Dockerfile
+    image: totplatform-website-env-staging
+    env_file:
+      - ../../.env.staging
+    ports:
+      - ${TOTPLATFORM_WEBSITE_STAGING_EXPOSED_PORT}:8091
